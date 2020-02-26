@@ -25,7 +25,7 @@ public class TruckMover : MonoBehaviour
     {
         //transform.rotation = Quaternion.Euler(new Vector3(transform.rotation.x, Mathf.Clamp(transform.rotation.y, -45, 45), transform.rotation.z));
         float angle = Input.GetAxis("Mouse X") * rotationSpeed ;
-        transform.Rotate(Vector3.up, angle, Space.World);        
+        transform.Rotate(Vector3.up, angle*Time.deltaTime, Space.World);        
     }
 
 }
