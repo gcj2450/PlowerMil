@@ -7,10 +7,11 @@ public class TruckMover : MonoBehaviour
     public Camera cam;  //Drag the camera object here
     public float rotationSpeed = 8;  //This will determine max rotation speed, you can adjust in the inspector
     public float mainMoveSpeed = 10;
+    public float moveSpeed = 10; // speed of the player
 
     float posX = 0;
     float rotationY=0;
-    float moveSpeed = 10; // speed of the player
+
     Vector3 mouseTouchPos;
 
     private void Start()
@@ -61,7 +62,13 @@ public class TruckMover : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.rigidbody.mass > 1)
+        if (collision.rigidbody.mass > 100)
+        {
+            moveSpeed = 0;
+            GetComponent<Rigidbody>().velocity = Vector3.zero;
+        }
+            
+        else if (collision.rigidbody.mass > 1)
         {
             moveSpeed = moveSpeed * GetComponent<Rigidbody>().mass / collision.rigidbody.mass;
         }
@@ -69,5 +76,6 @@ public class TruckMover : MonoBehaviour
     private void OnCollisionExit(Collision collision)
     {
         moveSpeed = mainMoveSpeed;
+        //GetComponent<Rigidbody>().isKinematic = true;
     }
 }
