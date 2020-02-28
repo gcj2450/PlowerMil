@@ -44,12 +44,19 @@ public class PileMaker : MonoBehaviour
     
     void PlacePile()
     {
-        if(index == 0)
+
+        if (index == 0)
         {
+            PileList[index].transform.position = transform.position;
+
+            PileList[index].transform.rotation = Quaternion.Euler(new Vector3(Random.Range(-90, 90), Random.Range(-90, 90), Random.Range(-90, 90)));
+        }
+        else
+        {
+            PileList[index].transform.position = new Vector3(PileList[index - 1].transform.position.x, PileList[index - 1].transform.position.y, PileList[index - 1].transform.position.z + 50);
             PileList[index].transform.position = transform.position;
             PileList[index].transform.rotation = Quaternion.Euler(new Vector3(Random.Range(-90, 90), Random.Range(-90, 90), Random.Range(-90, 90)));
         }
-        PileList[index].transform.position = transform.position;
-        PileList[index].transform.rotation = Quaternion.Euler(new Vector3(Random.Range(-90, 90), Random.Range(-90, 90), Random.Range(-90, 90)));
+        
     }
 }

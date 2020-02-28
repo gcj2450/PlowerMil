@@ -2,7 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CameraController
-    - FrontPile
+    - MaskController
     - MaskMaker
     - PileMaker
     - PlowerRotator
@@ -35,11 +35,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
-    - Class: 96
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -48,18 +54,20 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9256}
     - Class: 114
-      Script: {instanceID: 9678}
-    - Class: 114
       Script: {instanceID: 10266}
     - Class: 114
       Script: {instanceID: 10608}
     - Class: 114
-      Script: {instanceID: 10900}
+      Script: {instanceID: 10788}
     - Class: 114
-      Script: {instanceID: 19448}
+      Script: {instanceID: 10902}
+    - Class: 114
+      Script: {instanceID: 22844}
     - Class: 115
       Script: {instanceID: 0}
-    - Class: 136
+    - Class: 134
+      Script: {instanceID: 0}
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -992,7 +1000,7 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: 0c5e42cfc642b33206bbe289189f6f53
+      Hash: 74e0ba8ec0ee57b3f113baf35b62d213
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PileMaker
@@ -1082,7 +1090,7 @@ ScriptsOnlyBuild:
     className: AudioTrack
   - hash:
       serializedVersion: 2
-      Hash: a9e5079ed8f6bec0f69ced8ee344c4c8
+      Hash: 078f92f458672306db3fe68629fc6374
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TruckMover
@@ -1110,6 +1118,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: f4bda841e8b79fb097fcc34b592a849a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MaskMaker
   - hash:
       serializedVersion: 2
       Hash: 8649814970b42d345b89944b862453cc
@@ -1316,7 +1330,7 @@ ScriptsOnlyBuild:
     className: WireframeTrackableEventHandler
   - hash:
       serializedVersion: 2
-      Hash: ac40c7977181e0eec0fdd31d45dd4394
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlowerRotator
@@ -1532,11 +1546,11 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: f4bda841e8b79fb097fcc34b592a849a
+      Hash: 9980c70d7a4a4860ab841d4de65f7ef4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: MaskMaker
+    className: MaskController
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/UnityWorkplace/Plower/Builds/PlowerExample_02.apk
+  playerPath: D:/UnityWorkplace/Plower/Builds/PlowerExample_04.apk
