@@ -15,7 +15,10 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(player.transform.position.z >-45)
+        {
+            GameOver();
+        }
     }
 
     void GameOver()
