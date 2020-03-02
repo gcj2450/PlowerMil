@@ -26,22 +26,10 @@ public class TruckMover : MonoBehaviour
         transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
         transform.position = new Vector3(Mathf.Clamp(transform.position.x, boundaryL, boundaryR), transform.position.y, transform.position.z);
 
-        //if (Input.GetMouseButton(0))
-        //{
-        //    //RotateObject();
-        //    RotateInFrame();
-        //}
         RotateInFrame();
-        Debug.Log(moveSpeed);
 
     }
-    void RotateObject()
-    {
-        
-        float angle = Input.GetAxis("Mouse X") * rotationSpeed ;
-        transform.Rotate(Vector3.up, angle*Time.deltaTime, Space.World);
-        //transform.eulerAngles.y = Mathf.Clamp(transform.eulerAngles.y, -45, 45);
-    }
+
     float ClampAngle(float angle, float from, float to)
     {
         // accepts e.g. -80, 80
@@ -78,6 +66,5 @@ public class TruckMover : MonoBehaviour
     private void OnCollisionExit(Collision collision)
     {
         moveSpeed = mainMoveSpeed;
-        //GetComponent<Rigidbody>().isKinematic = true;
     }
 }
