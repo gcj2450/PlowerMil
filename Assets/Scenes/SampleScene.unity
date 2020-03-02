@@ -7690,7 +7690,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 963194227}
   rotationSpeed: 50
-  mainMoveSpeed: 10
+  mainMoveSpeed: 6
   moveSpeed: 6
 --- !u!54 &711864286
 Rigidbody:
