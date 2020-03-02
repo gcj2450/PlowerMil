@@ -62,14 +62,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\BarrierController.cs" />
-    <Compile Include="Assets\Scripts\CameraController.cs" />
-    <Compile Include="Assets\Scripts\FrontPile.cs" />
-    <Compile Include="Assets\Scripts\MaskController.cs" />
-    <Compile Include="Assets\Scripts\MaskMaker.cs" />
-    <Compile Include="Assets\Scripts\PileMaker.cs" />
-    <Compile Include="Assets\Scripts\PlowerRotator.cs" />
-    <Compile Include="Assets\Scripts\TruckMover.cs" />
+    <Compile Include="Assets\Scenes\Scripts\BarrierController.cs" />
+    <Compile Include="Assets\Scenes\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scenes\Scripts\FrontPile.cs" />
+    <Compile Include="Assets\Scenes\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scenes\Scripts\MaskController.cs" />
+    <Compile Include="Assets\Scenes\Scripts\MaskMaker.cs" />
+    <Compile Include="Assets\Scenes\Scripts\PileMaker.cs" />
+    <Compile Include="Assets\Scenes\Scripts\PlowerRotator.cs" />
+    <Compile Include="Assets\Scenes\Scripts\TruckMover.cs" />
+    <None Include="Assets\SoftSnow\SoftSnow - Readme.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/githubnewversion/PlowerMil/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
