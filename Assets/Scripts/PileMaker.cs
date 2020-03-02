@@ -6,57 +6,69 @@ public class PileMaker : MonoBehaviour
 {
     public GameObject pilePrefab;
     public GameObject group;
-    public GameObject[] PileList;
+    public List<GameObject> PileList = new List<GameObject>();
+   public bool winterPathtrigger = false;
+   public int winterAmount=50;
 
-    
+    public int index = 0;
 
-    int index = 0;
 
-  
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        
+        for (int i = 0; i < winterAmount; i++)
+        {
+            PileList.Add(Instantiate(pilePrefab, transform.position, Quaternion.identity));
+            PileList[i].gameObject.name = "WinterMass" + i; 
+            PileList[i].gameObject.transform.parent = group.transform;
+        }
     }
+    // Start is called before the first frame update
+
+
+
+
+
+    private float lastGeneratePosZ = float.MinValue;
+    public float deltaValue = 1;
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.Space))
+        if (winterPathtrigger)
         {
-            Instantiate(pilePrefab, transform.position, Quaternion.identity);
+            
+            if (transform.position.z - deltaValue > lastGeneratePosZ)
+            {
+                lastGeneratePosZ = transform.position.z;
+                PlacePile();
+            } 
+         
         }
+
     }
 
     void OnTriggerStay(Collider other)
     {
         if (other.gameObject.CompareTag("Snow"))
         {
-            if (index > PileList.Length-1)
-                index = 0;
+           winterPathtrigger = true;
 
-            Debug.Log("***SnowStay***");
-            //Instantiate(pilePrefab, transform.position, Quaternion.Euler(new Vector3(Random.Range(-90,90), Random.Range(-90, 90), Random.Range(-90, 90))));
-            PlacePile();
-            index++;
         }
     }
-    
+
     void PlacePile()
     {
-
-        if (index == 0)
-        {
-            PileList[index].transform.position = transform.position;
-
-            PileList[index].transform.rotation = Quaternion.Euler(new Vector3(Random.Range(-90, 90), Random.Range(-90, 90), Random.Range(-90, 90)));
-        }
+        
+        if (index >= PileList.Count-1)
+            index = 0;
         else
         {
-            PileList[index].transform.position = new Vector3(PileList[index - 1].transform.position.x, PileList[index - 1].transform.position.y, PileList[index - 1].transform.position.z + 50);
+            index++;
             PileList[index].transform.position = transform.position;
             PileList[index].transform.rotation = Quaternion.Euler(new Vector3(Random.Range(-90, 90), Random.Range(-90, 90), Random.Range(-90, 90)));
         }
+        
+
         
     }
 }

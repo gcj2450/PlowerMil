@@ -7,9 +7,7 @@ public class TruckMover : MonoBehaviour
     public Camera cam;  //Drag the camera object here
     public float rotationSpeed = 8;  //This will determine max rotation speed, you can adjust in the inspector
     public float mainMoveSpeed = 10;
-    public float moveSpeed = 10; // speed of the player
-    public float boundaryR = 4f;
-    public float boundaryL = -4f;
+    public float moveSpeed = 5; // speed of the player
 
     float posX = 0;
     float rotationY=0;
@@ -18,18 +16,30 @@ public class TruckMover : MonoBehaviour
 
     private void Start()
     {
-        moveSpeed = mainMoveSpeed;
+       
     }
     // Update is called once per frame
     void Update()
     {
         transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
-        transform.position = new Vector3(Mathf.Clamp(transform.position.x, boundaryL, boundaryR), transform.position.y, transform.position.z);
+        transform.position = new Vector3(Mathf.Clamp(transform.position.x, -3, 3), transform.position.y, transform.position.z);
 
+        //if (Input.GetMouseButton(0))
+        //{
+        //    //RotateObject();
+        //    RotateInFrame();
+        //}
         RotateInFrame();
+  
 
     }
-
+    void RotateObject()
+    {
+        
+        float angle = Input.GetAxis("Mouse X") * rotationSpeed ;
+        transform.Rotate(Vector3.up, angle*Time.deltaTime, Space.World);
+        //transform.eulerAngles.y = Mathf.Clamp(transform.eulerAngles.y, -45, 45);
+    }
     float ClampAngle(float angle, float from, float to)
     {
         // accepts e.g. -80, 80
@@ -66,5 +76,6 @@ public class TruckMover : MonoBehaviour
     private void OnCollisionExit(Collision collision)
     {
         moveSpeed = mainMoveSpeed;
+        //GetComponent<Rigidbody>().isKinematic = true;
     }
 }
