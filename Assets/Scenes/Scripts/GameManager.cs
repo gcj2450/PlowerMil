@@ -34,7 +34,6 @@ public class GameManager : MonoBehaviour
 
         if (waitTimeForGameOverTemp > waitTimeForGameOver)
         {
-            Instantiate(fallObstacle, new Vector3(player.transform.position.x, player.transform.position.y + 12f, player.transform.position.z), Quaternion.identity);
             waitTimeForGameOverTemp = 0;
         }
 
@@ -56,5 +55,10 @@ public class GameManager : MonoBehaviour
     {
         yield return new WaitForSeconds(2);
         GameOver();
+    }
+
+    void GameFinisher()
+    {
+        Instantiate(fallObstacle, new Vector3(player.transform.position.x, player.transform.position.y + 12f, player.transform.position.z), Quaternion.identity);
     }
 }
