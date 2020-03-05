@@ -11,8 +11,8 @@ public class TruckMover : MonoBehaviour
 
     [SerializeField] float boundaryR = 4f;
     [SerializeField] float boundaryL = -4f;
-    float posX = 0;
-    float rotationY=0;
+    //float posX = 0;
+    //float rotationY=0;
 
     Vector3 mouseTouchPos;
 

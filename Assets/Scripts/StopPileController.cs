@@ -9,4 +9,9 @@ public class StopPileController : MonoBehaviour
         if (other.CompareTag("Player"))
             Destroy(gameObject);
     }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.CompareTag("Player"))
+            Destroy(gameObject);
+    }
 }

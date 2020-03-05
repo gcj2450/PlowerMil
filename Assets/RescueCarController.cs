@@ -27,15 +27,14 @@ public class RescueCarController : MonoBehaviour
 
         ray = new Ray(transform.position, transform.forward);
         RaycastHit hit;
-        Debug.Log(coll.Raycast(ray, out hit, 100f));
-        if (!Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity))
+        
+        if (!Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 5f))
         {
+            if(hit.collider != null)
+                Debug.Log("Ray Hit Name: " + hit.collider.name);
             Debug.Log("Ray Hitted");
             MoveCar();
         }
-        //NavMeshHit hit;
-        //if(!agent.Raycast(wayPoint.transform.position, out hit))
-        //    MoveCar();
     }
 
     void MoveCar()
