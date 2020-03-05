@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        fallObstacle = GameObject.Find("FallObstacle");
+        //fallObstacle = GameObject.Find("FallObstacle");
     }
 
     // Start is called before the first frame update
