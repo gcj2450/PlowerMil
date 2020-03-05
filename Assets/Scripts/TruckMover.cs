@@ -9,8 +9,10 @@ public class TruckMover : MonoBehaviour
     public float mainMoveSpeed = 10;
     public float moveSpeed = 5; // speed of the player
 
-    float posX = 0;
-    float rotationY=0;
+    [SerializeField] float boundaryR = 4f;
+    [SerializeField] float boundaryL = -4f;
+    //float posX = 0;
+    //float rotationY=0;
 
     Vector3 mouseTouchPos;
 
@@ -22,7 +24,7 @@ public class TruckMover : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
-        transform.position = new Vector3(Mathf.Clamp(transform.position.x, -3, 3), transform.position.y, transform.position.z);
+        transform.position = new Vector3(Mathf.Clamp(transform.position.x, boundaryL, boundaryR), transform.position.y, transform.position.z);
 
         //if (Input.GetMouseButton(0))
         //{
