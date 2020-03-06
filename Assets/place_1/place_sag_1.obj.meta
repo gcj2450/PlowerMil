@@ -1,0 +1,804 @@
+fileFormatVersion: 2
+guid: 38cbb6f5791ea8349b3942b73d89184d
+ModelImporter:
+  serializedVersion: 25
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187Mat
+    second: {fileID: 2100000, guid: 2aad89bcbe50f4548b179220bc784874, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_Border_10Mat
+    second: {fileID: 2100000, guid: ef9384f8041b1c34db060cc9c2e13865, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_Border_11Mat
+    second: {fileID: 2100000, guid: 6cbf317f8a84459468c9313f4875a982, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_Border_12Mat
+    second: {fileID: 2100000, guid: 187e4b4061231ee40bc16d2a8913f294, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_Border_13Mat
+    second: {fileID: 2100000, guid: 8befc9076c764484a8e18053a5277ed7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_Border_14Mat
+    second: {fileID: 2100000, guid: 1274393e789dd6f43826d3f300606f24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_Border_15Mat
+    second: {fileID: 2100000, guid: d413543d9e99b5d468749419518e5097, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_Border_17Mat
+    second: {fileID: 2100000, guid: 4e17e08196218b140ba4536888033119, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_Border_18Mat
+    second: {fileID: 2100000, guid: 12802d3487c167842a29fcc0e11068f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_Border_19Mat
+    second: {fileID: 2100000, guid: c723e2dde0a05b94993db73fa945cefc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_Border_3Mat
+    second: {fileID: 2100000, guid: dfe821d42d8bb264493767e40028b5ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_Border_4Mat
+    second: {fileID: 2100000, guid: 403ead1df5d57f643876575a53cac972, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_Border_5Mat
+    second: {fileID: 2100000, guid: 3933a387ba7dd4c41bdacd3488e17f92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_Border_6Mat
+    second: {fileID: 2100000, guid: e72ecd7ef45a59e44b98dd82519084bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_House5_1Mat
+    second: {fileID: 2100000, guid: 62503eabe101f2640a0337acf7781981, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_House5_4Mat
+    second: {fileID: 2100000, guid: f937029d426e5184da38f3441329cab6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_House6_11Mat
+    second: {fileID: 2100000, guid: e2f06bc89f920c94397a9c58c237fd4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_House6_12Mat
+    second: {fileID: 2100000, guid: 476205a00af89094a8d57f15af798751, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_House6_13Mat
+    second: {fileID: 2100000, guid: db34e6e909f5c1b4492d7a28eb534938, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_House6_14Mat
+    second: {fileID: 2100000, guid: dc278f2d403d5b04ab8ba3d347d38fc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_House6_15Mat
+    second: {fileID: 2100000, guid: 11e995890441fc440afef43d9cb6e35b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_House6_17Mat
+    second: {fileID: 2100000, guid: 789d52d697cee3e4086095719d0a5f97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_House6_18Mat
+    second: {fileID: 2100000, guid: bd1a4593bbaac044eb2d549b59900215, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_House6_19Mat
+    second: {fileID: 2100000, guid: 3b30516134a94584baea6f4b74245bc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_House6_1Mat
+    second: {fileID: 2100000, guid: 2b28cebe9bb3d2b499c1535e802ee82b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_House6_4Mat
+    second: {fileID: 2100000, guid: 416f67304bc2d9a4ca8de22dcf138513, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_House6_7Mat
+    second: {fileID: 2100000, guid: bff4b7d667ba8d74eb6323d784b8fb37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_House6_8Mat
+    second: {fileID: 2100000, guid: 7002becb6c814ee40937c86cc4380143, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_House6_9Mat
+    second: {fileID: 2100000, guid: e990c83614fe00b4daf98b44462db297, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_SnowDecor_10Mat
+    second: {fileID: 2100000, guid: b729e9c3cddddc94b9454294cbe3a438, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_SnowDecor_11Mat
+    second: {fileID: 2100000, guid: 5b7f9aaee1f537249a2d0cb3fb02cdb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_SnowDecor_16Mat
+    second: {fileID: 2100000, guid: eafaec5c2124d9441b33e2ca5ce8eae8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_SnowDecor_1Mat
+    second: {fileID: 2100000, guid: a751d0aead431864bbc95e5894928725, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_SnowDecor_2Mat
+    second: {fileID: 2100000, guid: 2d0b2794660b2574f829b8643fceae92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_SnowDecor_4Mat
+    second: {fileID: 2100000, guid: 4591fa16787b5c94c9f81599d36e94a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_SnowDecor_6Mat
+    second: {fileID: 2100000, guid: eb24afcf656f85c42bcb97caed635921, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_SnowDecor_8Mat
+    second: {fileID: 2100000, guid: 0946a983d81517b40b959f6f97668524, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_SnowDecor_9Mat
+    second: {fileID: 2100000, guid: 7b45b14f5a8028d4cb29ec84cd3e0a8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_SnowManBranch__3593_SnowManBranch_1_snow_men10Mat
+    second: {fileID: 2100000, guid: e515bd64f287e99468d18562241a5ff0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_SnowManBranch__3593_SnowManBranch_1_snow_men13Mat
+    second: {fileID: 2100000, guid: 776f8105cf707d64f9529a9ddc3be39a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_SnowManBranch__3593_SnowManBranch_1_snow_men14Mat
+    second: {fileID: 2100000, guid: 2255c58b37bfce244b1e320ef1cb63e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_SnowManBranch__3593_SnowManBranch_1_snow_men3Mat
+    second: {fileID: 2100000, guid: 8bd58ec4798f436429e8024cebd85dde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_SnowManBranch__3593_SnowManBranch_1_snow_men5Mat
+    second: {fileID: 2100000, guid: 98c8cd128f02b2a4c852dce55d1c4ad1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_SnowManBranch__3593_SnowManBranch_1_snow_men9Mat
+    second: {fileID: 2100000, guid: 68a2d33548a201b46a739b08f6aba145, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_SnowManBranch__3593_SnowManBranch_1_snow_menMat
+    second: {fileID: 2100000, guid: 05a23f9f6d201d341919232b27831fd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_Snow_Env1__3601_Snow_Env1_1Mat
+    second: {fileID: 2100000, guid: a3408cba959cec94e8ab7d37ea0b80a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_Snow_Env1__3601_Snow_Env1_2Mat
+    second: {fileID: 2100000, guid: fee9387a724d37246a9b1cfd536603f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_Snow_Env1__3601_Snow_Env1_4Mat
+    second: {fileID: 2100000, guid: 648e9793a2d2afc43b3b5b584a868126, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_Snow_Env2_1Mat
+    second: {fileID: 2100000, guid: abc991716a79bb648a72b2fdd82760de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_Snow_Env2_Snow_Env2_0Mat
+    second: {fileID: 2100000, guid: e60177fcfe08ffa44949401c085a68ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_StreetBranch_0Mat
+    second: {fileID: 2100000, guid: 85750f1d13f422e4e9fb74991d63ceb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_StreetBranch_2Mat
+    second: {fileID: 2100000, guid: 4c6bddb91818989429a50c99247a7e96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_StreetBranch_3Mat
+    second: {fileID: 2100000, guid: 20a3ccd5a0c7b404a9e1b1d7c3622845, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_StreetBranch_5Mat
+    second: {fileID: 2100000, guid: f6527bdf360a6ef41a2363a8f1d0da14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_StreetBranch_7Mat
+    second: {fileID: 2100000, guid: 55e79dc905249d1419dfc75e36aa7c66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_StreetLamp_0Mat
+    second: {fileID: 2100000, guid: 54f65eacd94bde946bb7e81ba0ec94f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_StreetLamp_1Mat
+    second: {fileID: 2100000, guid: 0a3c68b6426426a48b36377bcd02328f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_StreetLamp_2Mat
+    second: {fileID: 2100000, guid: 1b07fe26d4a261c46864904690c1fd6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_StreetLamp_3Mat
+    second: {fileID: 2100000, guid: 5d5f7a157a05623429dc8983e5ed439d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_StreetLamp_4Mat
+    second: {fileID: 2100000, guid: 3f2becfff8b40b04aa084ac383f51f8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_StreetLamp_5Mat
+    second: {fileID: 2100000, guid: afe65ee31dcfde94daa7f1c3d0cc7921, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_StreetLamp_6Mat
+    second: {fileID: 2100000, guid: e84b615144cd03f4aa816dffca2dd9a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_StreetLamp_7Mat
+    second: {fileID: 2100000, guid: bcc8f4a1269d35341bc6c57c15d87179, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_alt_2Mat
+    second: {fileID: 2100000, guid: cd48536ff0f2d964084f7146af021966, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface100Mat
+    second: {fileID: 2100000, guid: b45f5db7174d1a048b4e42aa0ae8be72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface104Mat
+    second: {fileID: 2100000, guid: caad4f743187ae7438f7ffc2d78dbc6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface107Mat
+    second: {fileID: 2100000, guid: 8daaa6e5c2ce738428f63ca2f39a91c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface113Mat
+    second: {fileID: 2100000, guid: dcbba9b8657dd1845a4b8ded6e02f465, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface117Mat
+    second: {fileID: 2100000, guid: 928a40299c6b0a64e9b114dd065e0e7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface118Mat
+    second: {fileID: 2100000, guid: 93f79df235cd2ba4f9939e7d089ab08a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface119Mat
+    second: {fileID: 2100000, guid: 767005748e7b2ab498973ed623ba785e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface120Mat
+    second: {fileID: 2100000, guid: 9ce4acfb25df2584c8da12e20b20e76f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface121Mat
+    second: {fileID: 2100000, guid: 5b36c9b5fd8480b4cb41b69e83881ef7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface124Mat
+    second: {fileID: 2100000, guid: 53d236d175df38044906ecbd789099c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface129Mat
+    second: {fileID: 2100000, guid: bed8802e565017e4494431255c280e49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface132Mat
+    second: {fileID: 2100000, guid: 93c508fea9daf3543b3762047153df70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface133Mat
+    second: {fileID: 2100000, guid: 822cb5c1cb577cb4395909d1f604b1ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface134Mat
+    second: {fileID: 2100000, guid: 7380b1067508f0e4681ba86dca8fd83c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface135Mat
+    second: {fileID: 2100000, guid: fd6af7ec4d97d7a4c8d6075e5e4582f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface136Mat
+    second: {fileID: 2100000, guid: 32c84a27819828e44a209d0049ed73e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface137Mat
+    second: {fileID: 2100000, guid: 1e399176b627ecf49987048aaec0477b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface138Mat
+    second: {fileID: 2100000, guid: 553ad0c4740202c428dc5cdd2daeac8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface157Mat
+    second: {fileID: 2100000, guid: ccddb5f58486ec841871a0730b0033e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface158Mat
+    second: {fileID: 2100000, guid: e5d7ce67c38df2d418077a2e787cabb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface159Mat
+    second: {fileID: 2100000, guid: 6e302a9fa1f0c3547a5a0f26a3a0fa3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface160Mat
+    second: {fileID: 2100000, guid: 6dfee9a077f263648b7dc4151c37935a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface161Mat
+    second: {fileID: 2100000, guid: 1c597e3012fe222499f32bf055ca7835, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface162Mat
+    second: {fileID: 2100000, guid: b4aee34184fa2364cb1536be7115eb43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface163Mat
+    second: {fileID: 2100000, guid: 446cc88e08e29bb4d92b33cef46e8292, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface164Mat
+    second: {fileID: 2100000, guid: 9d4519658eb1ade419cc5ccb7bb9d297, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface165Mat
+    second: {fileID: 2100000, guid: 9b7aee6aaa4468043a74e80c8eeaa169, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface166Mat
+    second: {fileID: 2100000, guid: b8dd7ff4d96b3fb44986224472e7f7c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface167Mat
+    second: {fileID: 2100000, guid: b0117092755047f45add4c2aad5963ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface168Mat
+    second: {fileID: 2100000, guid: 9a87a128fdcba3b49a66001224017502, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface169Mat
+    second: {fileID: 2100000, guid: 10f87a32ac8fa9347931dc04cab3b0db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface170Mat
+    second: {fileID: 2100000, guid: 694e9affc8f9e8c44bc087a460a49a14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface171Mat
+    second: {fileID: 2100000, guid: 794de5dc04127324fbc4adcf818f4ce4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface172Mat
+    second: {fileID: 2100000, guid: 0a2eca051a4964a47a6b92d887c147e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface173Mat
+    second: {fileID: 2100000, guid: 55201928da8a2724fa2421719fe690ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface174Mat
+    second: {fileID: 2100000, guid: 407e8b75c719b4d49adb183d82d1207a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface175Mat
+    second: {fileID: 2100000, guid: b2e7a5396e452a14fa9e6a4e5759c680, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface176Mat
+    second: {fileID: 2100000, guid: cebcbef9df8625d4a84e531ad581bec4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface177Mat
+    second: {fileID: 2100000, guid: 66090c0d5d0438d4f98c7e8ae3584f1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface178Mat
+    second: {fileID: 2100000, guid: 5ab565601bdf2974c8bc3c890b193215, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface192Mat
+    second: {fileID: 2100000, guid: 4fc90cdeef67b144ca63322281aded6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface193Mat
+    second: {fileID: 2100000, guid: b714ff4bcb0a3aa48b30c50fef2be9ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface194Mat
+    second: {fileID: 2100000, guid: 38efd23f812d08745815769f5177fc4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface195Mat
+    second: {fileID: 2100000, guid: 8d5444805bee4d642b05b2d01fc95b0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface196Mat
+    second: {fileID: 2100000, guid: 5760c3406c9ab9644abdeb3a9d849267, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface197Mat
+    second: {fileID: 2100000, guid: 78185f9aa595e814d8a665e73c156b77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface198Mat
+    second: {fileID: 2100000, guid: 439641e8a1743c044866410adcfd1c28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface199Mat
+    second: {fileID: 2100000, guid: 87b4c86387e43bf439e10ed293f7a2f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface201Mat
+    second: {fileID: 2100000, guid: 5f03cb6ee7842af4fa5e6357ea117576, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_polySurface203Mat
+    second: {fileID: 2100000, guid: af0919a88a00e2a41a2ded46b13f40b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_snow_men10_SnowMan2_Body_0Mat
+    second: {fileID: 2100000, guid: 843984b4af03f294fae91bdefc7bfbdb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_snow_men10_SnowMan2_Cap_0Mat
+    second: {fileID: 2100000, guid: d5923ed61877ce345926f32789fd4d56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_snow_men10_SnowMan2_head_0Mat
+    second: {fileID: 2100000, guid: 3fe6fbe292dcb6c4e86abb2e9449ff7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_snow_men10_SnowManBranch__3593_SnowManBranch_0Mat
+    second: {fileID: 2100000, guid: 703d0b4b745a4e94ab16184318f368cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_snow_men13_SnowMan2_Body_0Mat
+    second: {fileID: 2100000, guid: 064fa03b7f99dde4eaceb1ff5afd00af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_snow_men13_SnowMan2_Cap_0Mat
+    second: {fileID: 2100000, guid: c3a46a335059cfb42b49f0aba8d1e524, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_snow_men13_SnowMan2_head_0Mat
+    second: {fileID: 2100000, guid: d00f5b58096eaee438b77539c7dc7288, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_snow_men13_SnowManBranch__3593_SnowManBranch_0Mat
+    second: {fileID: 2100000, guid: a6e8bc88c5265464397b1454c5b9854a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_snow_men14_SnowMan2_Body_0Mat
+    second: {fileID: 2100000, guid: 85c16330132712544be634d7ecb1fed9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_snow_men14_SnowMan2_Cap_0Mat
+    second: {fileID: 2100000, guid: b1757db56c58836478f15406596f9a18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_snow_men14_SnowMan2_head_0Mat
+    second: {fileID: 2100000, guid: cc08c3df27e9db5429cd138c35ad5cd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_snow_men14_SnowManBranch__3593_SnowManBranch_0Mat
+    second: {fileID: 2100000, guid: 422d011338a14dc428c5b4e61f63ca68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_snow_men3_SnowMan2_Body_0Mat
+    second: {fileID: 2100000, guid: 2861687727d98ee40a967aafa538715a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_snow_men3_SnowMan2_Cap_0Mat
+    second: {fileID: 2100000, guid: 617fed6d04e820342a95ef58f67de66a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_snow_men3_SnowMan2_head_0Mat
+    second: {fileID: 2100000, guid: 0ac588b84785c2c40b395dd9399148f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_snow_men3_SnowManBranch__3593_SnowManBranch_0Mat
+    second: {fileID: 2100000, guid: cddcabca66aa6b4498c0a4c3d0b87308, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_snow_men5_SnowMan2_Body_0Mat
+    second: {fileID: 2100000, guid: b2528e2915e470a46ba374483420f1b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_snow_men5_SnowMan2_Cap_0Mat
+    second: {fileID: 2100000, guid: 0151ea9b626c2cf4d9a323b9263a728c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_snow_men5_SnowMan2_head_0Mat
+    second: {fileID: 2100000, guid: 70849da54092f7640b675dacba790dee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_snow_men5_SnowManBranch__3593_SnowManBranch_0Mat
+    second: {fileID: 2100000, guid: 5c7f9986541cd7d4abe6668c79b99fcc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_snow_men9_SnowMan2_Body_0Mat
+    second: {fileID: 2100000, guid: 41eaabe2790ac984b8cb61446da87206, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_snow_men9_SnowMan2_Cap_0Mat
+    second: {fileID: 2100000, guid: 36bd17138a488964696e5903d03aa7fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_snow_men9_SnowMan2_head_0Mat
+    second: {fileID: 2100000, guid: c33b932acd453554e99cecb7ab18994e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_snow_men9_SnowManBranch__3593_SnowManBranch_0Mat
+    second: {fileID: 2100000, guid: c9ad8d2d7030dd747a0a1d1ebc648da2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_snow_men_SnowMan2_Body_SnowMan2_Body_0Mat
+    second: {fileID: 2100000, guid: 5a92d89fa75b756449d7292de9e138a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_snow_men_SnowMan2_Cap_SnowMan2_Cap_0Mat
+    second: {fileID: 2100000, guid: 215b04c7be4c4164ea8568b8a06c879e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_snow_men_SnowMan2_head_SnowMan2_head_0Mat
+    second: {fileID: 2100000, guid: 96b9a4ef91d64b648bcc8a87e0e0a9bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface187_snow_men_SnowManBranch__3593_SnowManBranch_0Mat
+    second: {fileID: 2100000, guid: 1d1d79c74c766f448869d66a9889f84d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.3
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.3
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
