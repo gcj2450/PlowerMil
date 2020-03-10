@@ -761,7 +761,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 6.1e-43, y: 1.11022296e-16, z: 2.3509887e-38, w: -2.3528786}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 90
@@ -1247,7 +1247,7 @@ MonoBehaviour:
   spriteAmount: 50
   spriteList: []
   plowIt: {fileID: 7270186820833949538, guid: 68c5c85da69a933469ba5e7586bcf6b0, type: 3}
-  winterPathtrigger: 0
+  winterPathTrigger: 0
   deltaValue: 1
   index: 0
 --- !u!1 &963194225
@@ -1767,6 +1767,7 @@ MonoBehaviour:
   winterBall: []
   counter: 3
   distance: 0
+  car: {fileID: 0}
 --- !u!4 &1444686864
 Transform:
   m_ObjectHideFlags: 0
@@ -2125,7 +2126,7 @@ MonoBehaviour:
   spriteAmount: 50
   spriteList: []
   plowIt: {fileID: 4473214545768724040, guid: a9aa8756851cfe1479742987cf75c28a, type: 3}
-  winterPathtrigger: 0
+  winterPathTrigger: 0
   deltaValue: 1
   index: 0
 --- !u!1001 &1778780155
@@ -2427,13 +2428,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1912186672}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0.3, y: -1, z: -362.3}
-  m_LocalScale: {x: 1, y: 1, z: 30}
+  m_LocalScale: {x: 50, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &2101459695
 GameObject:
   m_ObjectHideFlags: 0
