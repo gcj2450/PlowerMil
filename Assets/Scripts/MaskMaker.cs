@@ -9,7 +9,7 @@ public class MaskMaker : MonoBehaviour
     //public List<SpriteMask> spritePrefab = new List<SpriteMask>();
     public List<SpriteMask> spriteList = new List<SpriteMask>();
     public SpriteMask plowIt;
-    public  bool winterPathtrigger;
+    public  bool winterPathTrigger;
     private float lastGeneratePosZ = float.MinValue;
     public float deltaValue = 1;
     public int index = 0;
@@ -20,7 +20,7 @@ public class MaskMaker : MonoBehaviour
         for (int i = 0; i < spriteAmount; i++)
         {
             spriteList.Add(Instantiate(plowIt, transform.position, Quaternion.identity));
-            spriteList[i].gameObject.name = "WinterMass" + i;
+            spriteList[i].gameObject.name = "PlowMask" + i;
             spriteList[i].gameObject.transform.parent = group.transform;
         }
     }
@@ -33,7 +33,7 @@ public class MaskMaker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (winterPathtrigger)
+        if (winterPathTrigger)
         {
 
             if (transform.position.z - deltaValue > lastGeneratePosZ)
@@ -49,7 +49,7 @@ public class MaskMaker : MonoBehaviour
     {
         if (col.gameObject.tag == "Snow")
         {
-            winterPathtrigger = true;
+            winterPathTrigger = true;
         }
     }
 
@@ -63,7 +63,7 @@ public class MaskMaker : MonoBehaviour
         {
             index++;
             spriteList[index].transform.position = transform.position;
-            spriteList[index].transform.rotation = Quaternion.Euler(new Vector3(Random.Range(-90, 90), Random.Range(-90, 90), Random.Range(-90, 90)));
+            spriteList[index].transform.rotation = Quaternion.Euler(new Vector3(90, 0, 0));
         }
     }
 }
