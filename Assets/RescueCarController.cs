@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class RescueCarController : MonoBehaviour
 {
-    //public Transform target;
+    public Transform player;
     public Collider coll;
 
     private NavMeshAgent agent;
@@ -16,6 +16,7 @@ public class RescueCarController : MonoBehaviour
     [SerializeField]private float speed = 6.0f;
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("RescueCarTarget").transform;
         coll = GetComponent<Collider>();
         agent = GetComponent<NavMeshAgent>();
         //At the start of the game, car will find the player.
@@ -24,7 +25,7 @@ public class RescueCarController : MonoBehaviour
 
     void Update()
     {
-
+        CarRotate();
         ray = new Ray(transform.position, transform.forward);
         RaycastHit hit;
         
@@ -42,5 +43,10 @@ public class RescueCarController : MonoBehaviour
         wayPointPos = new Vector3(wayPoint.transform.position.x, transform.position.y, wayPoint.transform.position.z);
         //Car following player
         transform.position = Vector3.MoveTowards(transform.position, wayPointPos, speed * Time.deltaTime);
+    }
+
+    void CarRotate()
+    {
+        transform.LookAt(player.position,Vector3.up);
     }
 }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Snow
   - PileFront
+  - RescueCarTarget
   layers:
   - Default
   - TransparentFX
