@@ -15665,7 +15665,7 @@ MonoBehaviour:
   spriteAmount: 50
   spriteList: []
   plowIt: {fileID: 7270186820833949538, guid: 68c5c85da69a933469ba5e7586bcf6b0, type: 3}
-  winterPathtrigger: 0
+  winterPathTrigger: 0
   deltaValue: 0.5
   index: 0
 --- !u!1 &878310903
@@ -30796,7 +30796,7 @@ MonoBehaviour:
   spriteAmount: 50
   spriteList: []
   plowIt: {fileID: 0}
-  winterPathtrigger: 0
+  winterPathTrigger: 0
   deltaValue: 0.5
   index: 0
 --- !u!1 &1755508834
