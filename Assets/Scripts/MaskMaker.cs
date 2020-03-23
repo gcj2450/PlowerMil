@@ -55,7 +55,7 @@ public class MaskMaker : MonoBehaviour
 
     void WinterPathShadow()
     {
-        Instantiate(plowIt, transform.position, Quaternion.Euler(new Vector3(90, 0, 0)));
+        //Instantiate(plowIt, transform.position, Quaternion.Euler(new Vector3(90, 0, 0)));
 
         if (index >= spriteList.Count - 1)
             index = 0;
