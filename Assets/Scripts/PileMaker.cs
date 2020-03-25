@@ -9,9 +9,13 @@ public class PileMaker : MonoBehaviour
 
     public List<GameObject> PileList = new List<GameObject>();
     public bool winterPathtrigger = false;
+    
     public int winterAmount = 50;
 
     public int index = 0;
+
+    [SerializeField] private bool obstacle = false;
+    [SerializeField] private float boundarySide = 7;
 
 
     void Awake()
@@ -29,13 +33,25 @@ public class PileMaker : MonoBehaviour
 
 
 
-    private float lastGeneratePosZ = float.MinValue;
+    public float lastGeneratePosZ = float.MinValue;
+    public float obsLastGeneratePosZ=0.0f;
     public float deltaValue = 1;
+    public float obstacleDistanceValue=0.7f;
 
     // Update is called once per frame
     void Update()
     {
-        if (winterPathtrigger)
+        if (Mathf.Abs(transform.position.x) > boundarySide)
+        {
+            obstacle = true;
+        }
+        else
+        {
+            obstacle = false;
+        }
+
+
+        if (winterPathtrigger && !obstacle)
         {
 
             if (transform.position.z - deltaValue > lastGeneratePosZ)
@@ -50,12 +66,14 @@ public class PileMaker : MonoBehaviour
 
     void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.CompareTag("Snow"))
+        if (other.gameObject.CompareTag("Snow") )
         {
             winterPathtrigger = true;
 
         }
+
     }
+
 
     void PlacePile()
     {
