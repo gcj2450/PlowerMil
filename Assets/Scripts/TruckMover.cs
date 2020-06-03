@@ -25,9 +25,7 @@ public class TruckMover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
-        transform.position = new Vector3(Mathf.Clamp(transform.position.x, boundaryL, boundaryR), transform.position.y, transform.position.z);
-
+        Mover();
         if (Input.GetMouseButton(0))
         {
             RotateWithMouse();
@@ -55,6 +53,18 @@ public class TruckMover : MonoBehaviour
 
         transform.eulerAngles = rot;
 
+    }
+
+    void Mover()
+    {
+        if (transform.position.x < boundaryR && transform.position.x > boundaryL)
+            moveSpeed = 7.0f;
+        else
+        {
+            moveSpeed = 3.0f;
+        }
+        transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
+        transform.position = new Vector3(Mathf.Clamp(transform.position.x, boundaryL, boundaryR), transform.position.y, transform.position.z);
     }
     private void OnCollisionEnter(Collision collision)
     {
