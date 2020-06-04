@@ -18,9 +18,11 @@ public class RescueCarController : MonoBehaviour
 
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player").transform;
         coll = GetComponent<Collider>();
-        agent = GetComponent<NavMeshAgent>();
+        //agent = GetComponent<NavMeshAgent>();
         //At the start of the game, car will find the player.
+        Debug.Log(GameObject.FindGameObjectWithTag("Player").name);
         wayPoint = GameObject.FindGameObjectWithTag("Player");
         localForward = transform.worldToLocalMatrix.MultiplyVector(transform.forward);
     }
@@ -69,7 +71,7 @@ public class RescueCarController : MonoBehaviour
     {
         GameObject closestWPTemp = null;
         GameObject[] wayPointPosListTemp;
-        wayPointPosListTemp = GameObject.FindGameObjectsWithTag("WayPoint");
+        wayPointPosListTemp = GameObject.FindGameObjectsWithTag("RescueCarTarget");
         float distance = Mathf.Infinity;
         //wayPointPosListTemp.OrderBy(x => x.transform.position.z);
         foreach (var wayPointTemp in wayPointPosListTemp)
