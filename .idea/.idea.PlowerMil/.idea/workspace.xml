@@ -2,14 +2,225 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4123d899-9bac-4cdf-bc72-6cd90986cf76" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Aksu3D/obj_002/texture_02/home_all_002.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aksu3D/obj_002/texture_02/home_all_002.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Aksu3D/obj_002/texture_02/home_all_07.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aksu3D/obj_002/texture_02/home_all_07.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PlowerMil/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlowerMil/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps/DawnDusk.cubemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps/DawnDusk.cubemap.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps/Sunny2.cubemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps/Sunny2.cubemap.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps/Textures/DawnDusk_back.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps/Textures/DawnDusk_back.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps/Textures/DawnDusk_down.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps/Textures/DawnDusk_down.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps/Textures/DawnDusk_front.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps/Textures/DawnDusk_front.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps/Textures/DawnDusk_left.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps/Textures/DawnDusk_left.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps/Textures/DawnDusk_right.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps/Textures/DawnDusk_right.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps/Textures/DawnDusk_up.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps/Textures/DawnDusk_up.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps/Textures/Sunny2_back.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps/Textures/Sunny2_back.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps/Textures/Sunny2_down.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps/Textures/Sunny2_down.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps/Textures/Sunny2_front.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps/Textures/Sunny2_front.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps/Textures/Sunny2_left.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps/Textures/Sunny2_left.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps/Textures/Sunny2_right.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps/Textures/Sunny2_right.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps/Textures/Sunny2_up.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Cubemaps/Textures/Sunny2_up.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Editor/Image Effects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Editor/Image Effects/FrostEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Editor/Image Effects/FrostEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Simple.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Simple/Simple.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Simple/Simple.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Animations/Blue.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Animations/Blue.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Animations/Green.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Animations/Green.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Animations/Red.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Animations/Red.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Animations/White.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Animations/White.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Landscape.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Landscape.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Materials/Blue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Materials/Blue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Materials/Green.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Materials/Green.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Materials/Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Materials/Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Materials/Snowflake.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Materials/Snowflake.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Materials/White.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Materials/White.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Meshes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Meshes/Landscape.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Meshes/Landscape.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Snow.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Snow.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Snow.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Snow.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Textures/Blue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Textures/Blue.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Textures/Green.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Textures/Green.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Textures/Red.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Textures/Red.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Textures/Snowflake.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Textures/Snowflake.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Textures/White.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Examples/Snow/Textures/White.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Image Effects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Image Effects/Frost.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Image Effects/Frost.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Image Effects/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Image Effects/Shaders/Frost.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Image Effects/Shaders/Frost.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/FloorHex.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/FloorHex.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Sand Glitter.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Sand Glitter.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Sand.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Sand.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Blend Advanced Glitter.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Blend Advanced Glitter.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Blend Advanced Reflective Glitter.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Blend Advanced Reflective Glitter.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Blend Advanced Reflective.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Blend Advanced Reflective.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Blend Advanced.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Blend Advanced.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Blend Height Glitter.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Blend Height Glitter.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Blend Height Reflective Glitter.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Blend Height Reflective Glitter.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Blend Height Reflective.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Blend Height Reflective.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Blend Height.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Blend Height.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Blend Texture Glitter.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Blend Texture Glitter.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Blend Texture Reflective Glitter.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Blend Texture Reflective Glitter.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Blend Texture Reflective.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Blend Texture Reflective.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Blend Texture.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Blend Texture.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Full Glitter.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Full Glitter.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Full Reflective Glitter.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Full Reflective Glitter.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Full Reflective.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Full Reflective.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Full.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Materials/Snow Full.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Readme.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Readme.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Advanced Blend Glitter.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Advanced Blend Glitter.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Advanced Blend Reflective Glitter.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Advanced Blend Reflective Glitter.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Advanced Blend Reflective.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Advanced Blend Reflective.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Advanced Blend.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Advanced Blend.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Full Glitter.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Full Glitter.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Full Reflective Glitter.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Full Reflective Glitter.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Full Reflective.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Full Reflective.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Full.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Full.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Height Blend Glitter.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Height Blend Glitter.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Height Blend Reflective Glitter.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Height Blend Reflective Glitter.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Height Blend Reflective.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Height Blend Reflective.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Height Blend.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Height Blend.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Texture Blend Glitter.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Texture Blend Glitter.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Texture Blend Reflective Glitter.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Texture Blend Reflective Glitter.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Texture Blend Reflective.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Texture Blend Reflective.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Texture Blend.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/Snow Texture Blend.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/SnowCore.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/SnowCore.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/SnowInputs.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/SnowInputs.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/SnowLighting.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/SnowLighting.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/SnowSurface.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Shaders/Snow/SnowSurface.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/FloorHex_diffuse.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/FloorHex_diffuse.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/FloorHex_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/FloorHex_normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Frost_coverage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Frost_coverage.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Frost_diffuse.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Frost_diffuse.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Frost_normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Frost_normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Sand_depth.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Sand_depth.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Sand_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Sand_normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Sand_shade.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Sand_shade.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Sand_specular.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Sand_specular.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Snow_Noise.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Snow_Noise.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Snow_coverage.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Snow_coverage.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Snow_depth_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Snow_depth_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Snow_depth_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Snow_depth_02.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Snow_height.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Snow_height.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Snow_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Snow_normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Snow_shade.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Snow_shade.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Snow_specular.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Snow_specular.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlackfireStudio/Winter/Textures/Thumbs.db.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Custom_Car_Pack_Avenger/Materials/Avenger_Doom.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Custom_Car_Pack_Avenger/Materials/Avenger_Doom.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/MilModels/SnowWithMesh/0050-snow-texture-seamless-hr.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/MilModels/SnowWithMesh/0050-snow-texture-seamless-hr.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/MilModels/Snow_Ball_new.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Material.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/RescueCarController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RescueCarController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/place_city_2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/place_city_2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StopPileController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StopPileController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TruckMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TruckMover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpliCity_Mojave_Desert/- Materials/scp_md_material_02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpliCity_Mojave_Desert/- Materials/scp_md_material_02.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpliCity_Mojave_Desert/Demo/particles/scp_md_smoke_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpliCity_Mojave_Desert/Demo/particles/scp_md_smoke_01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +232,23 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/RescueCarController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StopPileController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CarFollowController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FrontPile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TruckMover.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MaskMaker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Models/MilModels/SnowWithMesh/0050-snow-texture-seamless-hr.jpg.meta" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StopPileController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TruckMover.cs" />
         <option value="$PROJECT_DIR$/Assets/RescueCarController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CarFollowController.cs" />
       </list>
     </option>
   </component>
@@ -43,6 +266,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -75,6 +299,9 @@
       <option name="presentableId" value="Default" />
       <updated>1591098416374</updated>
       <workItem from="1591098422478" duration="396000" />
+      <workItem from="1591263025785" duration="492000" />
+      <workItem from="1591350857593" duration="7557000" />
+      <workItem from="1591624705333" duration="1136000" />
     </task>
     <servers />
   </component>
@@ -83,4 +310,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
 </project>

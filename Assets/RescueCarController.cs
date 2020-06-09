@@ -3,7 +3,10 @@ using UnityEngine.AI;
 
 public class RescueCarController : MonoBehaviour
 {
+    public bool follow = false;
+    public int followID;
     public Transform player;
+    public GameObject obstacle;
     public Collider coll;
     //public GameObject[] wayPointPosList;
 
@@ -13,7 +16,7 @@ public class RescueCarController : MonoBehaviour
     private Vector3 localForward;
 
     [SerializeField]private GameObject wayPoint;
-    [SerializeField]private float speed = 0.5f;
+    [SerializeField]public float speed = 0.5f;
     [SerializeField] private float minDistance = 3f;
 
     void Start()
@@ -25,6 +28,7 @@ public class RescueCarController : MonoBehaviour
         Debug.Log(GameObject.FindGameObjectWithTag("Player").name);
         wayPoint = GameObject.FindGameObjectWithTag("Player");
         localForward = transform.worldToLocalMatrix.MultiplyVector(transform.forward);
+        
     }
 
  
@@ -35,31 +39,41 @@ public class RescueCarController : MonoBehaviour
         if (wayPoint != null)
         {
             wayPointPos = new Vector3(wayPoint.transform.position.x, transform.position.y, wayPoint.transform.position.z);
-            MoveCar();
-            CarRotate();
-        }
+            if (obstacle==null)
+            {
+                MoveCar();
+                CarRotate();
+                follow = true;
+            }
             
+        }
 
-        //if (Vector3.Distance(transform.position,wayPointPos)<=minDistance)
-        //{
-        //    MoveCar();
-        //    CarRotate();
-        //}
-
-
+ 
     }
 
 
     void MoveCar()
     {
-        //if (Vector3.Distance(transform.position, wayPointPos) < 3)
-        //{
-        //    return;
-        //}
+        if (Vector3.Distance(transform.position,player.transform.position)<minDistance)
+        {
+            speed -= 0.001f;
+            Debug.Log("yaklaşıyor");
+        }
+     
         wayPointPos = new Vector3(wayPoint.transform.position.x, transform.position.y, wayPoint.transform.position.z);
         //Car following player
-        transform.position = Vector3.Lerp(transform.position, wayPointPos, speed * Time.fixedDeltaTime);
+        transform.position = Vector3.Slerp(transform.position, wayPointPos, speed * Time.deltaTime);
+        
+        if (!CarFollowController.cfc.followCars.Contains(this))
+        {
+            if (follow)
+            {
+                CarFollowController.cfc.AddFollowCarList(this);
+            }
+           
+        }
        
+
     }
 
     void CarRotate()

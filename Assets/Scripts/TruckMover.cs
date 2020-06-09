@@ -10,14 +10,14 @@ public class TruckMover : MonoBehaviour
     public float mainMoveSpeed = 10;
     public float moveSpeed = 5; // speed of the player
     public float maxAngle = 30;
-
+    public bool stop = true;
     [SerializeField] float boundaryR = 4f;
     [SerializeField] float boundaryL = -4f;
     //float posX = 0;
     //float rotationY=0;
 
     Vector3 mouseTouchPos;
-
+    
     private void Start()
     {
 
@@ -57,12 +57,12 @@ public class TruckMover : MonoBehaviour
 
     void Mover()
     {
-        if (transform.position.x < boundaryR && transform.position.x > boundaryL)
-            moveSpeed = 7.0f;
-        else
-        {
-            moveSpeed = 3.0f;
-        }
+        // if (transform.position.x < boundaryR && transform.position.x > boundaryL)
+        //     moveSpeed = 7.0f;
+        // else
+        // {
+        //     moveSpeed = 3.0f;
+        // }
         transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
         transform.position = new Vector3(Mathf.Clamp(transform.position.x, boundaryL, boundaryR), transform.position.y, transform.position.z);
     }
@@ -78,10 +78,19 @@ public class TruckMover : MonoBehaviour
         {
             moveSpeed = moveSpeed * GetComponent<Rigidbody>().mass / collision.rigidbody.mass;
         }
+        
+     
     }
     private void OnCollisionExit(Collision collision)
     {
         moveSpeed = mainMoveSpeed;
+        
         //GetComponent<Rigidbody>().isKinematic = true;
+    }
+    
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Obstacle"))
+            Destroy(other.gameObject);
     }
 }
