@@ -23,6 +23,7 @@ public class PileMaker : MonoBehaviour
         for (int i = 0; i < winterAmount; i++)
         {
             PileList.Add(Instantiate(pilePrefab[Random.Range(0,6)], transform.position, Quaternion.identity));
+            PileList[i].SetActive(false);
             PileList[i].gameObject.name = "WinterMass" + i;
             PileList[i].gameObject.transform.parent = group.transform;
         }
@@ -85,6 +86,7 @@ public class PileMaker : MonoBehaviour
             index++;
             PileList[index].transform.position = transform.position;
             PileList[index].transform.rotation = Quaternion.Euler(new Vector3(Random.Range(-90, 90), Random.Range(-90, 90), Random.Range(-90, 90)));
+            PileList[index].SetActive(true);
         }
 
 

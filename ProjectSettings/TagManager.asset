@@ -9,6 +9,7 @@ TagManager:
   - RescueCarTarget
   - WayPoint
   - Obstacle
+  - truckBody
   layers:
   - Default
   - TransparentFX

@@ -7,6 +7,35 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="DestructibleProps" t="Include">
+          <e p="BulletsDamage.cs" t="Include" />
+          <e p="DemoScene" t="Include">
+            <e p="PickingUp.cs" t="Include" />
+            <e p="PlayerControllerCustom.cs" t="Include" />
+            <e p="ShootDemo.cs" t="Include" />
+          </e>
+          <e p="destruction.cs" t="Include" />
+          <e p="Models" t="Include">
+            <e p="CorridorLamp" t="Include">
+              <e p="CorridorLamp.cs" t="Include" />
+              <e p="CorridorLamp.shader" t="Include" />
+            </e>
+            <e p="DeskLamp" t="Include">
+              <e p="Billboard.cs" t="Include" />
+              <e p="DeskLamp.cs" t="Include" />
+            </e>
+            <e p="MetalBarrel" t="Include">
+              <e p="MetalBarrel.cs" t="Include" />
+            </e>
+          </e>
+          <e p="ReadMe.txt" t="Include" />
+          <e p="Shaders" t="Include">
+            <e p="ReflectiveCutoffFresnel.shader" t="Include" />
+            <e p="ReflectiveFresnel.shader" t="Include" />
+            <e p="ReflectiveIllumination.shader" t="Include" />
+            <e p="ReflectiveIlluminationFresnel.shader" t="Include" />
+          </e>
+        </e>
         <e p="Mobile City Pack" t="Include">
           <e p="FreeCam.cs" t="Include" />
           <e p="ReadMe.txt" t="Include" />

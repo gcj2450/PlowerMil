@@ -50,9 +50,15 @@ public class TruckMover : MonoBehaviour
 
         Vector3 rot = transform.rotation.eulerAngles + new Vector3(0, mx, 0f); //use local if your char is not always oriented Vector3.up
         rot.y = ClampAngle(rot.y, -maxAngle, maxAngle);
-
+        
         transform.eulerAngles = rot;
-
+        GameObject go= GameObject.FindWithTag("truckBody");
+        if (go)
+        {
+            Vector3 rotGo = go.transform.rotation.eulerAngles + new Vector3(0, 0, mx * 5.0f);
+            rotGo.z = ClampAngle(rotGo.z, -4, 4);
+            go.transform.eulerAngles = rotGo;
+        }
     }
 
     void Mover()
