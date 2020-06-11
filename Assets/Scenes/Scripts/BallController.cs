@@ -37,7 +37,7 @@ public class BallController : MonoBehaviour
     {
         if (index<counter)
         {
-            if (Vector3.Distance(car.transform.position, winterBall[index].transform.position) <= 30)
+            if (Vector3.Distance(car.transform.position, winterBall[index].transform.position) <= distance)
             {
                 winterBall[index].SetActive(true);
                 index++;

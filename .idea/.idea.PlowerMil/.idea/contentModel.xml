@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$/../Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$PROJECT_DIR$/../Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_PlowerMil.-1934377771.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="DestructibleProps" t="Include">
+          <e p="BulletsDamage.cs" t="Include" />
+          <e p="DemoScene" t="Include">
+            <e p="PickingUp.cs" t="Include" />
+            <e p="PlayerControllerCustom.cs" t="Include" />
+            <e p="ShootDemo.cs" t="Include" />
+          </e>
+          <e p="destruction.cs" t="Include" />
+          <e p="Models" t="Include">
+            <e p="CorridorLamp" t="Include">
+              <e p="CorridorLamp.cs" t="Include" />
+              <e p="CorridorLamp.shader" t="Include" />
+            </e>
+            <e p="DeskLamp" t="Include">
+              <e p="Billboard.cs" t="Include" />
+              <e p="DeskLamp.cs" t="Include" />
+            </e>
+            <e p="MetalBarrel" t="Include">
+              <e p="MetalBarrel.cs" t="Include" />
+            </e>
+          </e>
+          <e p="ReadMe.txt" t="Include" />
+          <e p="Shaders" t="Include">
+            <e p="ReflectiveCutoffFresnel.shader" t="Include" />
+            <e p="ReflectiveFresnel.shader" t="Include" />
+            <e p="ReflectiveIllumination.shader" t="Include" />
+            <e p="ReflectiveIlluminationFresnel.shader" t="Include" />
+          </e>
+        </e>
+        <e p="Mobile City Pack" t="Include">
+          <e p="FreeCam.cs" t="Include" />
+          <e p="ReadMe.txt" t="Include" />
+        </e>
+        <e p="NavMeshComponents" t="Include">
+          <e p="Assets" t="Include">
+            <e p="Examples" t="Include">
+              <e p="Editor" t="Include">
+                <e p="NavMeshComponentsExamplesEditor.asmdef" t="Include" />
+                <e p="NavMeshPrefabInstanceEditor.cs" t="Include" />
+              </e>
+              <e p="NavMeshComponentsExamples.asmdef" t="Include" />
+              <e p="Scripts" t="Include">
+                <e p="AgentLinkMover.cs" t="Include" />
+                <e p="ClickToMove.cs" t="Include" />
+                <e p="DestroyOnTrigger.cs" t="Include" />
+                <e p="DungeonManager.cs" t="Include" />
+                <e p="EnableIffSleeping.cs" t="Include" />
+                <e p="FreeCam.cs" t="Include" />
+                <e p="LocalNavMeshBuilder.cs" t="Include" />
+                <e p="MeshTool.cs" t="Include" />
+                <e p="NavMeshPrefabInstance.cs" t="Include" />
+                <e p="NavMeshSourceTag.cs" t="Include" />
+                <e p="Oscillator.cs" t="Include" />
+                <e p="RandomInstancing.cs" t="Include" />
+                <e p="RandomWalk.cs" t="Include" />
+                <e p="SpawnPrefabOnKeyDown.cs" t="Include" />
+              </e>
+            </e>
+            <e p="NavMeshComponents" t="Include">
+              <e p="Editor" t="Include">
+                <e p="NavMeshAssetManager.cs" t="Include" />
+                <e p="NavMeshComponentsEditor.asmdef" t="Include" />
+                <e p="NavMeshComponentsGUIUtility.cs" t="Include" />
+                <e p="NavMeshLinkEditor.cs" t="Include" />
+                <e p="NavMeshModifierEditor.cs" t="Include" />
+                <e p="NavMeshModifierVolumeEditor.cs" t="Include" />
+                <e p="NavMeshSurfaceEditor.cs" t="Include" />
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="NavMeshComponents.asmdef" t="Include" />
+                <e p="NavMeshLink.cs" t="Include" />
+                <e p="NavMeshModifier.cs" t="Include" />
+                <e p="NavMeshModifierVolume.cs" t="Include" />
+                <e p="NavMeshSurface.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Tests" t="Include">
+              <e p="Editor" t="Include">
+                <e p="NavMeshComponentsTestsEditmode.asmdef" t="Include" />
+                <e p="NavMeshModifierVolumeInPrefabTests.cs" t="Include" />
+                <e p="NavMeshSurfaceInPrefabTests.cs" t="Include" />
+                <e p="NavMeshSurfaceInPrefabVariantTests.cs" t="Include" />
+                <e p="PrefabSavingUtil.cs" t="Include" />
+                <e p="PrefabStageAutoSavingUtil.cs" t="Include" />
+              </e>
+              <e p="NavMeshComponentsTestsPlaymode.asmdef" t="Include" />
+              <e p="NavMeshSurfaceAgentTests.cs" t="Include" />
+              <e p="NavMeshSurfaceLinkTests.cs" t="Include" />
+              <e p="NavMeshSurfaceModifierTests.cs" t="Include" />
+              <e p="NavMeshSurfaceModifierVolumeTests.cs" t="Include" />
+              <e p="NavMeshSurfaceTests.cs" t="Include" />
+            </e>
+          </e>
+          <e p="ProjectSettings" t="Include">
+            <e p="ProjectVersion.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Obi" t="Include">
+          <e p="CHANGELOG_rope.txt" t="Include" />
+          <e p="Editor" t="Include">
+            <e p="Common" t="Include">
+              <e p="Blueprints" t="Include">
+                <e p="BlueprintEditorTools" t="Include">
+                  <e p="ObiBlueprintEditorTool.cs" t="Include" />
+                  <e p="ObiPaintBrushEditorTool.cs" t="Include" />
+                  <e p="ObiParticleSelectionEditorTool.cs" t="Include" />
+                  <e p="ObiPropertyTextureEditorTool.cs" t="Include" />
+                  <e p="ObiTethersTool.cs" t="Include" />
+                </e>
+                <e p="Brushes" t="Include">
+                  <e p="BrushModes" t="Include">
+                    <e p="ObiBrushMode.cs" t="Include" />
+                    <e p="ObiColorPaintBrushMode.cs" t="Include" />
+                    <e p="ObiColorSmoothBrushMode.cs" t="Include" />
+                    <e p="ObiFloatAddBrushMode.cs" t="Include" />
+                    <e p="ObiFloatPaintBrushMode.cs" t="Include" />
+                    <e p="ObiFloatSmoothBrushMode.cs" t="Include" />
+                    <e p="ObiIntPaintBrushMode.cs" t="Include" />
+                    <e p="ObiMasterSlavePaintBrushMode.cs" t="Include" />
+                    <e p="ObiSelectBrushMode.cs" t="Include" />
+                  </e>
+                  <e p="ObiBrushBase.cs" t="Include" />
+                  <e p="ObiRaycastBrush.cs" t="Include" />
+                  <e p="ObiScreenSpaceBrush.cs" t="Include" />
+                </e>
+                <e p="ObiActorBlueprintEditor.cs" t="Include" />
+                <e p="ObiMeshBasedActorBlueprintEditor.cs" t="Include" />
+                <e p="ObiMeshUtils.cs" t="Include" />
+                <e p="ObiParticleEditorDrawing.cs" t="Include" />
+                <e p="Properties" t="Include">
+                  <e p="BaseTypes" t="Include">
+                    <e p="ObiBlueprintBoolProperty.cs" t="Include" />
+                    <e p="ObiBlueprintColorProperty.cs" t="Include" />
+                    <e p="ObiBlueprintFloatProperty.cs" t="Include" />
+                    <e p="ObiBlueprintIntProperty.cs" t="Include" />
+                    <e p="ObiBlueprintProperty.cs" t="Include" />
+                  </e>
+                  <e p="IObiPropertyEditableProvider.cs" t="Include" />
+                  <e p="ObiBlueprintColor.cs" t="Include" />
+                  <e p="ObiBlueprintLayer.cs" t="Include" />
+                  <e p="ObiBlueprintMass.cs" t="Include" />
+                  <e p="ObiBlueprintRadius.cs" t="Include" />
+                  <e p="ObiBlueprintSelected.cs" t="Include" />
+                </e>
+                <e p="RenderModes" t="Include">
+                  <e p="ObiBlueprintRenderMode.cs" t="Include" />
+                  <e p="ObiBlueprintRenderModeAerodynamicConstraints.cs" t="Include" />
+                  <e p="ObiBlueprintRenderModeBendConstraints.cs" t="Include" />
+                  <e p="ObiBlueprintRenderModeDistanceConstraints.cs" t="Include" />
+                  <e p="ObiBlueprintRenderModeMesh.cs" t="Include" />
+                  <e p="ObiBlueprintRenderModeParticles.cs" t="Include" />
+                  <e p="ObiBlueprintRenderModeShapeMatchingConstraints.cs" t="Include" />
+                  <e p="ObiBlueprintRenderModeTetherConstraints.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Collisions" t="Include">
+                <e p="ObiCollider2DEditor.cs" t="Include" />
+                <e p="ObiColliderEditor.cs" t="Include" />
+                <e p="ObiDistanceFieldEditor.cs" t="Include" />
+              </e>
+              <e p="Constraints" t="Include">
+                <e p="ObiConstraintParametersDrawer.cs" t="Include" />
+              </e>
+              <e p="CrossPlatformInput" t="Include">
+                <e p="CrossPlatformInputInitialize.cs" t="Include" />
+              </e>
+              <e p="ObiAboutWindow.cs" t="Include" />
+              <e p="ObiEditorSettings.cs" t="Include" />
+              <e p="ObiSettingsProvider.cs" t="Include" />
+              <e p="Rendering" t="Include">
+                <e p="ObiParticleRendererEditor.cs" t="Include" />
+              </e>
+              <e p="Solver" t="Include">
+                <e p="ObiSolverEditor.cs" t="Include" />
+              </e>
+              <e p="Utils" t="Include">
+                <e p="ObiEditorUtils.cs" t="Include" />
+                <e p="ObiParticleAttachmentEditor.cs" t="Include" />
+                <e p="ObiRaycastHit.cs" t="Include" />
+                <e p="PreviewHelpers.cs" t="Include" />
+              </e>
+            </e>
+            <e p="ObiParticleSelection.cs" t="Include" />
+            <e p="ObiStitcherEditor.cs" t="Include" />
+            <e p="Resources" t="Include">
+              <e p="DistanceFieldPreview.shader" t="Include" />
+              <e p="EditorLineShader.shader" t="Include" />
+              <e p="EditorParticle.shader" t="Include" />
+              <e p="PaddingShader.shader" t="Include" />
+              <e p="PropertyGradientMaterial.shader" t="Include" />
+              <e p="TopologyBorders.shader" t="Include" />
+              <e p="UVSpaceColor.shader" t="Include" />
+            </e>
+            <e p="RopeAndRod" t="Include">
+              <e p="Blueprints" t="Include">
+                <e p="ObiRopeBaseBlueprintEditor.cs" t="Include" />
+              </e>
+              <e p="ObiDraggableIcon.cs" t="Include" />
+              <e p="ObiPathEditor.cs" t="Include" />
+              <e p="ObiPathHandles.cs" t="Include" />
+              <e p="ObiPathSmootherEditor.cs" t="Include" />
+              <e p="ObiRodEditor.cs" t="Include" />
+              <e p="ObiRopeChainRendererEditor.cs" t="Include" />
+              <e p="ObiRopeCursorEditor.cs" t="Include" />
+              <e p="ObiRopeEditor.cs" t="Include" />
+              <e p="ObiRopeExtrudedRendererEditor.cs" t="Include" />
+              <e p="ObiRopeLineRendererEditor.cs" t="Include" />
+              <e p="ObiRopeMeshRendererEditor.cs" t="Include" />
+              <e p="ObiRopeSectionEditor.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Plugins" t="Include">
+            <e p="libOni.bundle" t="Include">
+              <e p="Contents" t="Include">
+                <e p="Resources" t="Include">
+                  <e p="CMakeLists.txt" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Resources" t="Include">
+            <e p="ObiMaterials" t="Include">
+              <e p="DistanceFieldSlice.shader" t="Include" />
+              <e p="LitParticles.shader" t="Include" />
+              <e p="ObiEllipsoids.cginc" t="Include" />
+              <e p="ObiParticles.cginc" t="Include" />
+              <e p="ObiUtils.cginc" t="Include" />
+              <e p="ParticleShader.shader" t="Include" />
+              <e p="SimpleParticleShader.shader" t="Include" />
+              <e p="StandardVertexColors.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Samples" t="Include">
+            <e p="Common" t="Include">
+              <e p="SampleResources" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="ActorSpawner.cs" t="Include" />
+                  <e p="AddRandomVelocity.cs" t="Include" />
+                  <e p="Blinker.cs" t="Include" />
+                  <e p="CharacterController" t="Include">
+                    <e p="ObiCharacter.cs" t="Include" />
+                    <e p="SampleCharacterController.cs" t="Include" />
+                  </e>
+                  <e p="ColliderHighlighter.cs" t="Include" />
+                  <e p="CollisionEventHandler.cs" t="Include" />
+                  <e p="ColorFromPhase.cs" t="Include" />
+                  <e p="ColorFromVelocity.cs" t="Include" />
+                  <e p="ColorRandomizer.cs" t="Include" />
+                  <e p="DebugParticleFrames.cs" t="Include" />
+                  <e p="FPSDisplay.cs" t="Include" />
+                  <e p="MoveAndRotate.cs" t="Include" />
+                  <e p="ObiActorTeleport.cs" t="Include" />
+                  <e p="ObiParticleCounter.cs" t="Include" />
+                  <e p="ObjectDragger.cs" t="Include" />
+                  <e p="ObjectLimit.cs" t="Include" />
+                  <e p="SlowmoToggler.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="RopeAndRod" t="Include">
+              <e p="SampleResources" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="CharacterControl2D.cs" t="Include" />
+                  <e p="CraneController.cs" t="Include" />
+                  <e p="CursorController.cs" t="Include" />
+                  <e p="GrapplingHook.cs" t="Include" />
+                  <e p="RobotArmController.cs" t="Include" />
+                  <e p="RuntimeRopeGenerator.cs" t="Include" />
+                  <e p="RuntimeRopeGeneratorUse.cs" t="Include" />
+                  <e p="SpiralCurve.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Common" t="Include">
+              <e p="Actors" t="Include">
+                <e p="IObiParticleCollection.cs" t="Include" />
+                <e p="ObiActor.cs" t="Include" />
+              </e>
+              <e p="Blueprints" t="Include">
+                <e p="Constraints" t="Include">
+                  <e p="Batches" t="Include">
+                    <e p="IStructuralConstraintBatch.cs" t="Include" />
+                    <e p="ObiAerodynamicConstraintsBatch.cs" t="Include" />
+                    <e p="ObiBendConstraintsBatch.cs" t="Include" />
+                    <e p="ObiBendTwistConstraintsBatch.cs" t="Include" />
+                    <e p="ObiChainConstraintsBatch.cs" t="Include" />
+                    <e p="ObiConstraintsBatch.cs" t="Include" />
+                    <e p="ObiDistanceConstraintsBatch.cs" t="Include" />
+                    <e p="ObiPinConstraintsBatch.cs" t="Include" />
+                    <e p="ObiShapeMatchingConstraintsBatch.cs" t="Include" />
+                    <e p="ObiSkinConstraintsBatch.cs" t="Include" />
+                    <e p="ObiStretchShearConstraintsBatch.cs" t="Include" />
+                    <e p="ObiTetherConstraintsBatch.cs" t="Include" />
+                    <e p="ObiVolumeConstraintsBatch.cs" t="Include" />
+                  </e>
+                  <e p="ObiConstraints.cs" t="Include" />
+                  <e p="StructuralConstraint.cs" t="Include" />
+                </e>
+                <e p="GraphColoring.cs" t="Include" />
+                <e p="ObiActorBlueprint.cs" t="Include" />
+                <e p="ObiMeshBasedActorBlueprint.cs" t="Include" />
+                <e p="ObiParticleGroup.cs" t="Include" />
+              </e>
+              <e p="Collisions" t="Include">
+                <e p="ColliderTrackers" t="Include">
+                  <e p="Trackers2D" t="Include">
+                    <e p="ObiBoxShapeTracker2D.cs" t="Include" />
+                    <e p="ObiCapsuleShapeTracker2D.cs" t="Include" />
+                    <e p="ObiCircleShapeTracker2D.cs" t="Include" />
+                    <e p="ObiEdgeShapeTracker2D.cs" t="Include" />
+                  </e>
+                  <e p="Trackers3D" t="Include">
+                    <e p="ObiBoxShapeTracker.cs" t="Include" />
+                    <e p="ObiCapsuleShapeTracker.cs" t="Include" />
+                    <e p="ObiDistanceFieldShapeTracker.cs" t="Include" />
+                    <e p="ObiMeshShapeTracker.cs" t="Include" />
+                    <e p="ObiShapeTracker.cs" t="Include" />
+                    <e p="ObiSphereShapeTracker.cs" t="Include" />
+                    <e p="ObiTerrainShapeTracker.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="ObiCollider.cs" t="Include" />
+                <e p="ObiCollider2D.cs" t="Include" />
+                <e p="ObiColliderBase.cs" t="Include" />
+                <e p="ObiCollisionMaterial.cs" t="Include" />
+                <e p="ObiDistanceField.cs" t="Include" />
+                <e p="ObiRigidbody.cs" t="Include" />
+                <e p="ObiRigidbody2D.cs" t="Include" />
+                <e p="ObiRigidbodyBase.cs" t="Include" />
+              </e>
+              <e p="DataStructures" t="Include">
+                <e p="CastedList.cs" t="Include" />
+                <e p="NativeList" t="Include">
+                  <e p="ObiNativeFloatList.cs" t="Include" />
+                  <e p="ObiNativeIntList.cs" t="Include" />
+                  <e p="ObiNativeIntPtrList.cs" t="Include" />
+                  <e p="ObiNativeList.cs" t="Include" />
+                  <e p="ObiNativeQuaternionList.cs" t="Include" />
+                  <e p="ObiNativeVector2List.cs" t="Include" />
+                  <e p="ObiNativeVector3List.cs" t="Include" />
+                  <e p="ObiNativeVector4List.cs" t="Include" />
+                </e>
+                <e p="ObiList.cs" t="Include" />
+                <e p="ParticlePair.cs" t="Include" />
+                <e p="Voxelization" t="Include">
+                  <e p="MeshVoxelizer.cs" t="Include" />
+                  <e p="VoxelDistanceField.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Rendering" t="Include">
+                <e p="ObiDistanceFieldRenderer.cs" t="Include" />
+                <e p="ObiInstancedParticleRenderer.cs" t="Include" />
+                <e p="ObiParticleRenderer.cs" t="Include" />
+                <e p="ParticleImpostorRendering.cs" t="Include" />
+                <e p="ShadowmapExposer.cs" t="Include" />
+              </e>
+              <e p="Solver" t="Include">
+                <e p="ObiSolver.cs" t="Include" />
+              </e>
+              <e p="Updaters" t="Include">
+                <e p="ObiFixedUpdater.cs" t="Include" />
+                <e p="ObiLateFixedUpdater.cs" t="Include" />
+                <e p="ObiLateUpdater.cs" t="Include" />
+                <e p="ObiUpdater.cs" t="Include" />
+              </e>
+              <e p="Utils" t="Include">
+                <e p="Attributes" t="Include">
+                  <e p="ChildrenOnly.cs" t="Include" />
+                  <e p="DisplayAs.cs" t="Include" />
+                  <e p="Indent.cs" t="Include" />
+                  <e p="InspectorButtonAttribute.cs" t="Include" />
+                  <e p="MinMaxAttribute.cs" t="Include" />
+                  <e p="MultiDelayed.cs" t="Include" />
+                  <e p="MultiPropertyAttribute.cs" t="Include" />
+                  <e p="MultiRange.cs" t="Include" />
+                  <e p="SerializeProperty.cs" t="Include" />
+                  <e p="VisibleIf.cs" t="Include" />
+                </e>
+                <e p="Coroutines" t="Include">
+                  <e p="CoroutineJob.cs" t="Include" />
+                  <e p="EditorCoroutine.cs" t="Include" />
+                </e>
+                <e p="Forces" t="Include">
+                  <e p="ObiAmbientForceZone.cs" t="Include" />
+                  <e p="ObiExternalForce.cs" t="Include" />
+                  <e p="ObiSphericalForceZone.cs" t="Include" />
+                </e>
+                <e p="ObiColliderGrabber.cs" t="Include" />
+                <e p="ObiKinematicVelocities.cs" t="Include" />
+                <e p="ObiParticleAttachment.cs" t="Include" />
+                <e p="ObiParticleDragger.cs" t="Include" />
+                <e p="ObiParticleGridDebugger.cs" t="Include" />
+                <e p="ObiParticlePicker.cs" t="Include" />
+                <e p="ObiProfiler.cs" t="Include" />
+                <e p="ObiStitcher.cs" t="Include" />
+                <e p="ObiUtils.cs" t="Include" />
+                <e p="ObiVectorMath.cs" t="Include" />
+                <e p="SetPhase.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Obi.asmdef" t="Include" />
+            <e p="Oni.cs" t="Include" />
+            <e p="RopeAndRod" t="Include">
+              <e p="Actors" t="Include">
+                <e p="ObiRod.cs" t="Include" />
+                <e p="ObiRope.cs" t="Include" />
+                <e p="ObiRopeBase.cs" t="Include" />
+                <e p="ObiRopeCursor.cs" t="Include" />
+              </e>
+              <e p="Blueprints" t="Include">
+                <e p="ObiRodBlueprint.cs" t="Include" />
+                <e p="ObiRopeBlueprint.cs" t="Include" />
+                <e p="ObiRopeBlueprintBase.cs" t="Include" />
+              </e>
+              <e p="DataStructures" t="Include">
+                <e p="ObiRopeSection.cs" t="Include" />
+                <e p="ObiStructuralElement.cs" t="Include" />
+                <e p="Path" t="Include">
+                  <e p="DataChannels" t="Include">
+                    <e p="ObiColorDataChannel.cs" t="Include" />
+                    <e p="ObiMassDataChannel.cs" t="Include" />
+                    <e p="ObiNormalDataChannel.cs" t="Include" />
+                    <e p="ObiPathDataChannel.cs" t="Include" />
+                    <e p="ObiPathDataChannelIdentity.cs" t="Include" />
+                    <e p="ObiPhaseDataChannel.cs" t="Include" />
+                    <e p="ObiPointsDataChannel.cs" t="Include" />
+                    <e p="ObiRotationalMassDataChannel.cs" t="Include" />
+                    <e p="ObiThicknessDataChannel.cs" t="Include" />
+                  </e>
+                  <e p="Interpolators" t="Include">
+                    <e p="ObiCatmullRomInterpolator.cs" t="Include" />
+                    <e p="ObiCatmullRomInterpolator3D.cs" t="Include" />
+                    <e p="ObiColorInterpolator3D.cs" t="Include" />
+                    <e p="ObiConstantInterpolator.cs" t="Include" />
+                    <e p="ObiInterpolator.cs" t="Include" />
+                  </e>
+                  <e p="ObiPath.cs" t="Include" />
+                  <e p="ObiPathFrame.cs" t="Include" />
+                  <e p="ObiPathSmoother.cs" t="Include" />
+                  <e p="ObiWingedPoint.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Rendering" t="Include">
+                <e p="ObiRopeChainRenderer.cs" t="Include" />
+                <e p="ObiRopeExtrudedRenderer.cs" t="Include" />
+                <e p="ObiRopeLineRenderer.cs" t="Include" />
+                <e p="ObiRopeMeshRenderer.cs" t="Include" />
+              </e>
+              <e p="Utils" t="Include">
+                <e p="ObiRopeAttach.cs" t="Include" />
+                <e p="ObiRopePrefabPlugger.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="RescueCarController.cs" t="Include" />
+        <e p="Scenes" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="BallController.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="BarrierController.cs" t="Include" />
+          <e p="CameraController.cs" t="Include" />
+          <e p="CarFollowController.cs" t="Include" />
+          <e p="FrontPile.cs" t="Include" />
+          <e p="GameManager.cs" t="Include" />
+          <e p="MaskController.cs" t="Include" />
+          <e p="MaskMaker.cs" t="Include" />
+          <e p="PileMaker.cs" t="Include" />
+          <e p="PlowerRotator.cs" t="Include" />
+          <e p="StopPileController.cs" t="Include" />
+          <e p="TruckMover.cs" t="Include" />
+        </e>
+        <e p="SoftSnow" t="Include">
+          <e p="SoftSnow - Readme.txt" t="Include" />
+        </e>
+        <e p="WayPointMaker.cs" t="Include" />
+      </e>
+      <e p="NavMeshComponents.csproj" t="IncludeRecursive" />
+      <e p="NavMeshComponentsEditor.csproj" t="IncludeRecursive" />
+      <e p="NavMeshComponentsExamples.csproj" t="IncludeRecursive" />
+      <e p="NavMeshComponentsExamplesEditor.csproj" t="IncludeRecursive" />
+      <e p="NavMeshComponentsTestsEditmode.csproj" t="IncludeRecursive" />
+      <e p="NavMeshComponentsTestsPlaymode.csproj" t="IncludeRecursive" />
+      <e p="Obi.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="PlowerMil.sln" t="IncludeFlat" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

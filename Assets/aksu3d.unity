@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44535094, g: 0.48935944, b: 0.5436172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44535065, g: 0.4893592, b: 0.54361635, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2755,9 +2755,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &148192116
 Transform:
@@ -4516,9 +4516,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &255012398
 Transform:
@@ -9161,9 +9161,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &489331190
 GameObject:
@@ -10351,9 +10351,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &551580624
 Transform:
@@ -14471,9 +14471,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &813329512
 Transform:
@@ -17442,8 +17442,8 @@ Camera:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -17457,7 +17457,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 100
   field of view: 90
   orthographic: 0
   orthographic size: 5
@@ -17471,7 +17471,7 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
+  m_AllowDynamicResolution: 1
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -19098,7 +19098,12 @@ MonoBehaviour:
   winterPathtrigger: 0
   winterAmount: 30
   index: 0
+  obstacle: 0
+  boundarySide: 7
+  lastGeneratePosZ: -3.4028235e+38
+  obsLastGeneratePosZ: 0
   deltaValue: 0.3
+  obstacleDistanceValue: 0.7
 --- !u!65 &1042630475
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27140,9 +27145,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!212 &1482965573
 SpriteRenderer:
@@ -30075,7 +30080,12 @@ MonoBehaviour:
   winterPathtrigger: 0
   winterAmount: 30
   index: 0
+  obstacle: 0
+  boundarySide: 7
+  lastGeneratePosZ: -3.4028235e+38
+  obsLastGeneratePosZ: 0
   deltaValue: 0.3
+  obstacleDistanceValue: 0.7
 --- !u!65 &1700040719
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38507,9 +38517,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -3147877396474910718, guid: c49eefa4df2ff114bbe0f1adf01eac7a, type: 3}
 --- !u!23 &1857096878197073746
 MeshRenderer:
@@ -38968,9 +38978,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -4895130943397136286, guid: c49eefa4df2ff114bbe0f1adf01eac7a, type: 3}
 --- !u!4 &7153272881838761351
 Transform:
@@ -39231,9 +39241,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -8260448891567277399, guid: c49eefa4df2ff114bbe0f1adf01eac7a, type: 3}
 --- !u!4 &7922450500015254103
 Transform:
@@ -39482,9 +39492,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -4085521767386488421, guid: c49eefa4df2ff114bbe0f1adf01eac7a, type: 3}
 --- !u!1 &8736424515653361994
 GameObject:

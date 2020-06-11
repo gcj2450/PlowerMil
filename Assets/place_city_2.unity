@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44535094, g: 0.48935944, b: 0.5436172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44535065, g: 0.4893592, b: 0.54361635, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -208,6 +208,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bank_002 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b90680cd48d236d48a8c141ccfb76ca3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b90680cd48d236d48a8c141ccfb76ca3, type: 3}
 --- !u!1 &5734509
@@ -375,6 +380,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cop_1 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d313db8c768c32b4eb127f1547fd8935,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5346072340809836931, guid: d313db8c768c32b4eb127f1547fd8935,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -469,6 +479,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: snow_tepe_2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c096328261b29bf4ab28b3b1ccc3cda8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3293923419534434029, guid: c096328261b29bf4ab28b3b1ccc3cda8,
         type: 3}
@@ -586,7 +601,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 60d2185502eef074e9debc20a55eddea,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 102.03
+      value: 118
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 60d2185502eef074e9debc20a55eddea,
         type: 3}
@@ -657,6 +672,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -746,6 +766,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -925,6 +950,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: zemin_snow_2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6849403079279311709, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1073,6 +1103,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: dekor_car_1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 7e6a666cf8a0a884aa3f86873cd79e55,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e6a666cf8a0a884aa3f86873cd79e55, type: 3}
@@ -1324,6 +1359,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -1581,6 +1621,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: sunhade_02 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d868fde2a2a4b624da1f6de3c35f8725,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 631110285997012102, guid: d868fde2a2a4b624da1f6de3c35f8725,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1674,6 +1719,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: zemin_snow_2 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6849403079279311709, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
         type: 3}
@@ -1942,6 +1992,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: home_snow
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b2cf81482070e0341a83934e27a45a04,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4649431627816154018, guid: b2cf81482070e0341a83934e27a45a04,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2113,6 +2168,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: home_snow (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b2cf81482070e0341a83934e27a45a04,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4649431627816154018, guid: b2cf81482070e0341a83934e27a45a04,
         type: 3}
@@ -2291,6 +2351,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bank_002 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b90680cd48d236d48a8c141ccfb76ca3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b90680cd48d236d48a8c141ccfb76ca3, type: 3}
 --- !u!1 &106563613
@@ -2462,6 +2527,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -3099,9 +3169,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &148192116
 Transform:
@@ -3287,6 +3357,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: hydrant_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c32080424c514864dae7e172779cfa05,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2765530538662012063, guid: c32080424c514864dae7e172779cfa05,
         type: 3}
@@ -3708,6 +3783,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: home_snow (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b2cf81482070e0341a83934e27a45a04,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4649431627816154018, guid: b2cf81482070e0341a83934e27a45a04,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4004,6 +4084,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (75)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1001 &202814781
@@ -4092,6 +4177,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: zemin (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9b922962a2a6d5d41a60a46ca431e633,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8259339931374314562, guid: 9b922962a2a6d5d41a60a46ca431e633,
         type: 3}
@@ -4644,6 +4734,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: hydrant_02 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c32080424c514864dae7e172779cfa05,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2765530538662012063, guid: c32080424c514864dae7e172779cfa05,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4729,9 +4824,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &255012398
 Transform:
@@ -5108,6 +5203,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cop_1 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d313db8c768c32b4eb127f1547fd8935,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5346072340809836931, guid: d313db8c768c32b4eb127f1547fd8935,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -5374,6 +5474,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (89)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1001 &309844631
@@ -5457,6 +5562,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: swing_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6f30e8e06e7033043975f210d5c6e74d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 281300057744400135, guid: 6f30e8e06e7033043975f210d5c6e74d,
         type: 3}
@@ -5546,6 +5656,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: cop_1 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d313db8c768c32b4eb127f1547fd8935,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5346072340809836931, guid: d313db8c768c32b4eb127f1547fd8935,
         type: 3}
@@ -5725,6 +5840,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cop_1
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d313db8c768c32b4eb127f1547fd8935,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5346072340809836931, guid: d313db8c768c32b4eb127f1547fd8935,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -5887,6 +6007,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -6114,6 +6239,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: dekor_car_1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 7e6a666cf8a0a884aa3f86873cd79e55,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e6a666cf8a0a884aa3f86873cd79e55, type: 3}
@@ -6371,6 +6501,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: home_snow (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b2cf81482070e0341a83934e27a45a04,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4649431627816154018, guid: b2cf81482070e0341a83934e27a45a04,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -6464,6 +6599,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (88)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -6648,6 +6788,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: zemin
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9b922962a2a6d5d41a60a46ca431e633,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8259339931374314562, guid: 9b922962a2a6d5d41a60a46ca431e633,
         type: 3}
@@ -7204,6 +7349,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: zemin_snow_2 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6849403079279311709, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -7333,6 +7483,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: swing_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6f30e8e06e7033043975f210d5c6e74d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 281300057744400135, guid: 6f30e8e06e7033043975f210d5c6e74d,
         type: 3}
@@ -7595,6 +7750,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: hydrant_02 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c32080424c514864dae7e172779cfa05,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2765530538662012063, guid: c32080424c514864dae7e172779cfa05,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -7688,6 +7848,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: zemin_snow_2 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6849403079279311709, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
         type: 3}
@@ -7885,6 +8050,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: road s
       objectReference: {fileID: 0}
+    - target: {fileID: 1186792242508418, guid: 3b9560882017bf442a8aebbc7346f33e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4362275047919732, guid: 3b9560882017bf442a8aebbc7346f33e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -8035,6 +8204,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (82)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1 &489194542
@@ -8129,9 +8303,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &497174035
 PrefabInstance:
@@ -8480,6 +8654,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bank_002 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b90680cd48d236d48a8c141ccfb76ca3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b90680cd48d236d48a8c141ccfb76ca3, type: 3}
@@ -8885,6 +9064,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dekor_car_1
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 7e6a666cf8a0a884aa3f86873cd79e55,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e6a666cf8a0a884aa3f86873cd79e55, type: 3}
 --- !u!1 &545054952
@@ -9148,9 +9332,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &551580624
 Transform:
@@ -9425,6 +9609,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bank_002 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b90680cd48d236d48a8c141ccfb76ca3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b90680cd48d236d48a8c141ccfb76ca3, type: 3}
 --- !u!1001 &578024056
@@ -9508,6 +9697,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: cop_1 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d313db8c768c32b4eb127f1547fd8935,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5346072340809836931, guid: d313db8c768c32b4eb127f1547fd8935,
         type: 3}
@@ -9609,6 +9803,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (65)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1001 &582239194
@@ -9697,6 +9896,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bank_002
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b90680cd48d236d48a8c141ccfb76ca3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b90680cd48d236d48a8c141ccfb76ca3, type: 3}
@@ -9793,6 +9997,10 @@ PrefabInstance:
     - target: {fileID: 1206736626633002, guid: e5a56d5a2948eb24d8afbfd16bd4c2ad, type: 3}
       propertyPath: m_Name
       value: car 02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1206736626633002, guid: e5a56d5a2948eb24d8afbfd16bd4c2ad, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415877026649508, guid: e5a56d5a2948eb24d8afbfd16bd4c2ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10317,6 +10525,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 0dcdd3c8513b6e54b9c49c870de45ed9, type: 2}
+    - target: {fileID: -8199875550706431844, guid: 034b4c0d3645b0f49a8db0fe5b1984da,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.69
+      objectReference: {fileID: 0}
     - target: {fileID: -8039548950261012749, guid: 034b4c0d3645b0f49a8db0fe5b1984da,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -10550,7 +10763,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 034b4c0d3645b0f49a8db0fe5b1984da,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.08
+      value: 4.489168
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 034b4c0d3645b0f49a8db0fe5b1984da,
         type: 3}
@@ -10716,6 +10929,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: all_home_02
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 034b4c0d3645b0f49a8db0fe5b1984da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -911642050367442888, guid: 034b4c0d3645b0f49a8db0fe5b1984da,
         type: 3}
@@ -11465,6 +11683,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (53)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1 &624022666
@@ -11810,6 +12033,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: home_snow (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b2cf81482070e0341a83934e27a45a04,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4649431627816154018, guid: b2cf81482070e0341a83934e27a45a04,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -11910,6 +12138,10 @@ PrefabInstance:
     - target: {fileID: 1206736626633002, guid: e5a56d5a2948eb24d8afbfd16bd4c2ad, type: 3}
       propertyPath: m_Name
       value: car 02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1206736626633002, guid: e5a56d5a2948eb24d8afbfd16bd4c2ad, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415877026649508, guid: e5a56d5a2948eb24d8afbfd16bd4c2ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12139,6 +12371,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bank_002 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b90680cd48d236d48a8c141ccfb76ca3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b90680cd48d236d48a8c141ccfb76ca3, type: 3}
 --- !u!1001 &654927974
@@ -12222,6 +12459,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: sunhade_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d868fde2a2a4b624da1f6de3c35f8725,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 631110285997012102, guid: d868fde2a2a4b624da1f6de3c35f8725,
         type: 3}
@@ -12322,6 +12564,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (103)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -12545,6 +12792,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: dekor_car_1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 7e6a666cf8a0a884aa3f86873cd79e55,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e6a666cf8a0a884aa3f86873cd79e55, type: 3}
@@ -12890,6 +13142,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (40)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1001 &672209411
@@ -12978,6 +13235,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: zemin_snow_2 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6849403079279311709, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
         type: 3}
@@ -13152,6 +13414,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bank_002 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b90680cd48d236d48a8c141ccfb76ca3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b90680cd48d236d48a8c141ccfb76ca3, type: 3}
 --- !u!1 &676482788
@@ -13247,7 +13514,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: b2cf81482070e0341a83934e27a45a04,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 20.169346
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b2cf81482070e0341a83934e27a45a04,
         type: 3}
@@ -13563,6 +13830,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dekor_car_1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 7e6a666cf8a0a884aa3f86873cd79e55,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e6a666cf8a0a884aa3f86873cd79e55, type: 3}
 --- !u!4 &693377242 stripped
@@ -13657,6 +13929,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -13922,6 +14199,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bank_002 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b90680cd48d236d48a8c141ccfb76ca3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b90680cd48d236d48a8c141ccfb76ca3, type: 3}
 --- !u!1 &711864280
@@ -14068,6 +14350,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: car 02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1206736626633002, guid: e5a56d5a2948eb24d8afbfd16bd4c2ad, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4415877026649508, guid: e5a56d5a2948eb24d8afbfd16bd4c2ad, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.02
@@ -14136,6 +14422,10 @@ PrefabInstance:
     - target: {fileID: 1998567512341640, guid: 53fbc2bc3c31e7e41badef79938dd3c8, type: 3}
       propertyPath: m_Name
       value: taxi
+      objectReference: {fileID: 0}
+    - target: {fileID: 1998567512341640, guid: 53fbc2bc3c31e7e41badef79938dd3c8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4078061718308430, guid: 53fbc2bc3c31e7e41badef79938dd3c8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14364,6 +14654,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (102)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -15049,6 +15344,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: zemin_snow_2 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6849403079279311709, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -15231,6 +15531,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (95)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -15485,6 +15790,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (55)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1 &799775900
@@ -15657,6 +15967,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\u0131ce_box"
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c98f7e9aeae0dc94b9cad02292015c09,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c98f7e9aeae0dc94b9cad02292015c09, type: 3}
 --- !u!1 &812584343
@@ -15820,9 +16135,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &813329512
 Transform:
@@ -16002,6 +16317,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: home_snow (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b2cf81482070e0341a83934e27a45a04,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4649431627816154018, guid: b2cf81482070e0341a83934e27a45a04,
         type: 3}
@@ -16186,6 +16506,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (67)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1001 &828036549
@@ -16274,6 +16599,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: zemin_snow_2 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6849403079279311709, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
         type: 3}
@@ -16543,6 +16873,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (90)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1001 &848645469
@@ -16631,6 +16966,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -16965,6 +17305,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cop_1 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d313db8c768c32b4eb127f1547fd8935,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5346072340809836931, guid: d313db8c768c32b4eb127f1547fd8935,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -17064,6 +17409,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (97)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -17436,6 +17786,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 8dbc092a4a7194c4eba0171428322a83,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8dbc092a4a7194c4eba0171428322a83, type: 3}
 --- !u!1 &898361260
@@ -17691,6 +18046,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (99)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1001 &907560481
@@ -17774,6 +18134,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: sunhade_02 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d868fde2a2a4b624da1f6de3c35f8725,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 631110285997012102, guid: d868fde2a2a4b624da1f6de3c35f8725,
         type: 3}
@@ -18124,6 +18489,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (80)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1001 &931537919
@@ -18469,6 +18839,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cop_1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d313db8c768c32b4eb127f1547fd8935,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5346072340809836931, guid: d313db8c768c32b4eb127f1547fd8935,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -18738,6 +19113,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bank_002 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b90680cd48d236d48a8c141ccfb76ca3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b90680cd48d236d48a8c141ccfb76ca3, type: 3}
@@ -19009,6 +19389,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_02
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 8dbc092a4a7194c4eba0171428322a83,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8dbc092a4a7194c4eba0171428322a83, type: 3}
 --- !u!4 &963884403 stripped
@@ -19181,6 +19566,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: snow_tepe_2
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c096328261b29bf4ab28b3b1ccc3cda8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3293923419534434029, guid: c096328261b29bf4ab28b3b1ccc3cda8,
         type: 3}
@@ -19917,6 +20307,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: swing_02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6f30e8e06e7033043975f210d5c6e74d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 281300057744400135, guid: 6f30e8e06e7033043975f210d5c6e74d,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -20485,7 +20880,12 @@ MonoBehaviour:
   winterPathtrigger: 0
   winterAmount: 30
   index: 0
+  obstacle: 0
+  boundarySide: 7
+  lastGeneratePosZ: -3.4028235e+38
+  obsLastGeneratePosZ: 0
   deltaValue: 0.3
+  obstacleDistanceValue: 0.7
 --- !u!65 &1042630475
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20580,6 +20980,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: cop_1 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d313db8c768c32b4eb127f1547fd8935,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5346072340809836931, guid: d313db8c768c32b4eb127f1547fd8935,
         type: 3}
@@ -20977,6 +21382,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (85)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1001 &1069965114
@@ -21065,6 +21475,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: zemin_snow_2 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6849403079279311709, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
         type: 3}
@@ -21159,6 +21574,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -21504,6 +21924,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (69)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1001 &1091520150
@@ -21592,6 +22017,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (87)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -22602,6 +23032,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (54)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1001 &1115800875
@@ -22690,6 +23125,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -22857,6 +23297,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: cop_1 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d313db8c768c32b4eb127f1547fd8935,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5346072340809836931, guid: d313db8c768c32b4eb127f1547fd8935,
         type: 3}
@@ -23051,6 +23496,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (48)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1 &1128340998
@@ -23218,6 +23668,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: home_snow (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b2cf81482070e0341a83934e27a45a04,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4649431627816154018, guid: b2cf81482070e0341a83934e27a45a04,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -23275,7 +23730,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -477.503
+      value: -477
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
         type: 3}
@@ -23341,6 +23796,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: zemin_snow_2
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6849403079279311709, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
         type: 3}
@@ -24367,6 +24827,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (83)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1 &1205665449
@@ -24761,7 +25226,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 60d2185502eef074e9debc20a55eddea,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 103.8
+      value: 119.770004
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 60d2185502eef074e9debc20a55eddea,
         type: 3}
@@ -24832,6 +25297,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -25565,6 +26035,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: all_home_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 034b4c0d3645b0f49a8db0fe5b1984da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -911642050367442888, guid: 034b4c0d3645b0f49a8db0fe5b1984da,
         type: 3}
@@ -26413,6 +26888,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: zemin_snow_2 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6849403079279311709, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -26518,7 +26998,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 60d2185502eef074e9debc20a55eddea,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 101.81439
+      value: 117.78439
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 60d2185502eef074e9debc20a55eddea,
         type: 3}
@@ -26589,6 +27069,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -26679,6 +27164,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bank_002 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b90680cd48d236d48a8c141ccfb76ca3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b90680cd48d236d48a8c141ccfb76ca3, type: 3}
 --- !u!1001 &1285810110
@@ -26762,6 +27252,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: home_snow (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b2cf81482070e0341a83934e27a45a04,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4649431627816154018, guid: b2cf81482070e0341a83934e27a45a04,
         type: 3}
@@ -26940,6 +27435,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: home_snow (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b2cf81482070e0341a83934e27a45a04,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4649431627816154018, guid: b2cf81482070e0341a83934e27a45a04,
         type: 3}
@@ -27551,6 +28051,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\u0131ce_box (2)"
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c98f7e9aeae0dc94b9cad02292015c09,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c98f7e9aeae0dc94b9cad02292015c09, type: 3}
 --- !u!1001 &1310540401
@@ -27640,6 +28145,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (60)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1001 &1314918649
@@ -27728,6 +28238,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (92)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -28079,6 +28594,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: home_snow (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b2cf81482070e0341a83934e27a45a04,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4649431627816154018, guid: b2cf81482070e0341a83934e27a45a04,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -28347,6 +28867,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (73)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1001 &1368879465
@@ -28430,6 +28955,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: hydrant_02 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c32080424c514864dae7e172779cfa05,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2765530538662012063, guid: c32080424c514864dae7e172779cfa05,
         type: 3}
@@ -28519,6 +29049,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: home_snow (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b2cf81482070e0341a83934e27a45a04,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4649431627816154018, guid: b2cf81482070e0341a83934e27a45a04,
         type: 3}
@@ -28697,6 +29232,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (59)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1001 &1376164688
@@ -28780,6 +29320,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: swing_02
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6f30e8e06e7033043975f210d5c6e74d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 281300057744400135, guid: 6f30e8e06e7033043975f210d5c6e74d,
         type: 3}
@@ -28959,6 +29504,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: hydrant_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c32080424c514864dae7e172779cfa05,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2765530538662012063, guid: c32080424c514864dae7e172779cfa05,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -29052,6 +29602,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: zemin_snow_2 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6849403079279311709, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
         type: 3}
@@ -29183,6 +29738,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (51)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1001 &1395304204
@@ -29272,6 +29832,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (93)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1001 &1397002199
@@ -29360,6 +29925,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -29616,6 +30186,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: cop_1 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d313db8c768c32b4eb127f1547fd8935,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5346072340809836931, guid: d313db8c768c32b4eb127f1547fd8935,
         type: 3}
@@ -29978,6 +30553,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cop_1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d313db8c768c32b4eb127f1547fd8935,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5346072340809836931, guid: d313db8c768c32b4eb127f1547fd8935,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -30078,6 +30658,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bank_002 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b90680cd48d236d48a8c141ccfb76ca3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b90680cd48d236d48a8c141ccfb76ca3, type: 3}
 --- !u!1001 &1444387667
@@ -30166,6 +30751,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -30470,6 +31060,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bank_002 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b90680cd48d236d48a8c141ccfb76ca3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b90680cd48d236d48a8c141ccfb76ca3, type: 3}
 --- !u!1 &1469366606
@@ -30731,6 +31326,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (52)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1 &1477587335
@@ -30898,6 +31498,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cop_1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d313db8c768c32b4eb127f1547fd8935,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5346072340809836931, guid: d313db8c768c32b4eb127f1547fd8935,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -30939,9 +31544,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!212 &1482965573
 SpriteRenderer:
@@ -31252,6 +31857,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bank_002 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b90680cd48d236d48a8c141ccfb76ca3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b90680cd48d236d48a8c141ccfb76ca3, type: 3}
 --- !u!4 &1488830475 stripped
@@ -31401,6 +32011,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: dekor_car_1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 7e6a666cf8a0a884aa3f86873cd79e55,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e6a666cf8a0a884aa3f86873cd79e55, type: 3}
@@ -31907,6 +32522,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: home_snow (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b2cf81482070e0341a83934e27a45a04,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4649431627816154018, guid: b2cf81482070e0341a83934e27a45a04,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -32006,6 +32626,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (96)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -32357,6 +32982,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1001 &1577338968
@@ -32535,6 +33165,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: home_snow (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b2cf81482070e0341a83934e27a45a04,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4649431627816154018, guid: b2cf81482070e0341a83934e27a45a04,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -32712,6 +33347,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (91)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1 &1603230305
@@ -32884,6 +33524,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (72)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1 &1604221595
@@ -33051,6 +33696,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: snow_tepe_2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c096328261b29bf4ab28b3b1ccc3cda8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3293923419534434029, guid: c096328261b29bf4ab28b3b1ccc3cda8,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -33145,6 +33795,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (101)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1001 &1629934295
@@ -33228,6 +33883,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: hydrant_02
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c32080424c514864dae7e172779cfa05,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2765530538662012063, guid: c32080424c514864dae7e172779cfa05,
         type: 3}
@@ -33411,6 +34071,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: zemin_snow_2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6849403079279311709, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
         type: 3}
@@ -34027,6 +34692,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (100)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!4 &1667320870 stripped
@@ -34116,6 +34786,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: hydrant_02 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c32080424c514864dae7e172779cfa05,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2765530538662012063, guid: c32080424c514864dae7e172779cfa05,
         type: 3}
@@ -34210,6 +34885,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -34433,7 +35113,12 @@ MonoBehaviour:
   winterPathtrigger: 0
   winterAmount: 30
   index: 0
+  obstacle: 0
+  boundarySide: 7
+  lastGeneratePosZ: -3.4028235e+38
+  obsLastGeneratePosZ: 0
   deltaValue: 0.3
+  obstacleDistanceValue: 0.7
 --- !u!65 &1700040719
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34714,6 +35399,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: snow_tepe_01
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d5776126a156ab24e963b2583cfe3f79,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7956577453844409897, guid: d5776126a156ab24e963b2583cfe3f79,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -34815,7 +35505,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 60d2185502eef074e9debc20a55eddea,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 104.8
+      value: 120.770004
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 60d2185502eef074e9debc20a55eddea,
         type: 3}
@@ -34886,6 +35576,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -35106,6 +35801,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (49)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!4 &1752833414 stripped
@@ -35200,6 +35900,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -35540,6 +36245,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: home_snow (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b2cf81482070e0341a83934e27a45a04,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4649431627816154018, guid: b2cf81482070e0341a83934e27a45a04,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -35633,6 +36343,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: zemin_snow_2 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6849403079279311709, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
         type: 3}
@@ -35893,6 +36608,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bank_002 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b90680cd48d236d48a8c141ccfb76ca3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b90680cd48d236d48a8c141ccfb76ca3, type: 3}
@@ -36320,6 +37040,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -36760,6 +37485,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (79)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1 &1872014828
@@ -36931,6 +37661,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: zemin_snow_2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6849403079279311709, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
         type: 3}
@@ -37177,6 +37912,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: sunhade_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d868fde2a2a4b624da1f6de3c35f8725,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 631110285997012102, guid: d868fde2a2a4b624da1f6de3c35f8725,
         type: 3}
@@ -37521,6 +38261,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (61)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1 &1901474140
@@ -37692,6 +38437,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (81)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -37960,6 +38710,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (56)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1001 &1934283131
@@ -38048,6 +38803,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -38317,6 +39077,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (94)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -38824,6 +39589,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: zemin_yan_10
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: de44e11744d7180489b71fe2738236bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de44e11744d7180489b71fe2738236bd, type: 3}
 --- !u!1001 &1969501614
@@ -38836,6 +39606,10 @@ PrefabInstance:
     - target: {fileID: 1206736626633002, guid: e5a56d5a2948eb24d8afbfd16bd4c2ad, type: 3}
       propertyPath: m_Name
       value: car 02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1206736626633002, guid: e5a56d5a2948eb24d8afbfd16bd4c2ad, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415877026649508, guid: e5a56d5a2948eb24d8afbfd16bd4c2ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -39232,6 +40006,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cop_1 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d313db8c768c32b4eb127f1547fd8935,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5346072340809836931, guid: d313db8c768c32b4eb127f1547fd8935,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -39332,6 +40111,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (74)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1001 &2000680609
@@ -39420,6 +40204,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -39593,6 +40382,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: zemin_snow_2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6849403079279311709, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -39686,6 +40480,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -39942,6 +40741,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: sunhade_02 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d868fde2a2a4b624da1f6de3c35f8725,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 631110285997012102, guid: d868fde2a2a4b624da1f6de3c35f8725,
         type: 3}
@@ -40552,6 +41356,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (84)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1001 &2061874336
@@ -40907,6 +41716,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: zemin_snow_2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6849403079279311709, guid: a5c9a8863012dc14fb90c676c0e4bf0f,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -41135,6 +41949,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dekor_car_1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 7e6a666cf8a0a884aa3f86873cd79e55,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e6a666cf8a0a884aa3f86873cd79e55, type: 3}
 --- !u!4 &2073002161 stripped
@@ -41229,6 +42048,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -42170,6 +42994,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (98)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1001 &2119392803
@@ -42259,6 +43088,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (63)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1001 &2120654691
@@ -42271,6 +43105,10 @@ PrefabInstance:
     - target: {fileID: 1206736626633002, guid: e5a56d5a2948eb24d8afbfd16bd4c2ad, type: 3}
       propertyPath: m_Name
       value: car 02 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1206736626633002, guid: e5a56d5a2948eb24d8afbfd16bd4c2ad, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415877026649508, guid: e5a56d5a2948eb24d8afbfd16bd4c2ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -42729,6 +43567,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tire_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
 --- !u!1001 &2141209427
@@ -42817,6 +43660,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tire_02 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60d2185502eef074e9debc20a55eddea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d2185502eef074e9debc20a55eddea, type: 3}
@@ -42936,6 +43784,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: cop_1 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d313db8c768c32b4eb127f1547fd8935,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5346072340809836931, guid: d313db8c768c32b4eb127f1547fd8935,
         type: 3}
@@ -43058,9 +43911,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -3147877396474910718, guid: c49eefa4df2ff114bbe0f1adf01eac7a, type: 3}
 --- !u!23 &1857096878197073746
 MeshRenderer:
@@ -43519,9 +44372,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -4895130943397136286, guid: c49eefa4df2ff114bbe0f1adf01eac7a, type: 3}
 --- !u!4 &7153272881838761351
 Transform:
@@ -43782,9 +44635,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -8260448891567277399, guid: c49eefa4df2ff114bbe0f1adf01eac7a, type: 3}
 --- !u!4 &7922450500015254103
 Transform:
@@ -44033,9 +44886,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -4085521767386488421, guid: c49eefa4df2ff114bbe0f1adf01eac7a, type: 3}
 --- !u!1 &8736424515653361994
 GameObject:

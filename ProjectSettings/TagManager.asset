@@ -8,6 +8,8 @@ TagManager:
   - PileFront
   - RescueCarTarget
   - WayPoint
+  - Obstacle
+  - truckBody
   layers:
   - Default
   - TransparentFX

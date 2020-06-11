@@ -1,13 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.Experimental.PlayerLoop;
 
 public class RescueCarController : MonoBehaviour
 {
+    public bool follow = false;
+    public int followID;
     public Transform player;
+    public GameObject obstacle;
     public Collider coll;
     //public GameObject[] wayPointPosList;
 
@@ -17,16 +16,18 @@ public class RescueCarController : MonoBehaviour
     private Vector3 localForward;
 
     [SerializeField]private GameObject wayPoint;
-    [SerializeField]private float speed = 0.5f;
+    [SerializeField]public float speed = 0.5f;
     [SerializeField] private float minDistance = 3f;
 
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player").transform;
         coll = GetComponent<Collider>();
-        agent = GetComponent<NavMeshAgent>();
+        //agent = GetComponent<NavMeshAgent>();
         //At the start of the game, car will find the player.
         wayPoint = GameObject.FindGameObjectWithTag("Player");
         localForward = transform.worldToLocalMatrix.MultiplyVector(transform.forward);
+        
     }
 
  
@@ -37,31 +38,41 @@ public class RescueCarController : MonoBehaviour
         if (wayPoint != null)
         {
             wayPointPos = new Vector3(wayPoint.transform.position.x, transform.position.y, wayPoint.transform.position.z);
-            MoveCar();
-            CarRotate();
-        }
+            if (obstacle==null)
+            {
+                MoveCar();
+                CarRotate();
+                follow = true;
+            }
             
+        }
 
-        //if (Vector3.Distance(transform.position,wayPointPos)<=minDistance)
-        //{
-        //    MoveCar();
-        //    CarRotate();
-        //}
-
-
+ 
     }
 
 
     void MoveCar()
     {
-        //if (Vector3.Distance(transform.position, wayPointPos) < 3)
-        //{
-        //    return;
-        //}
+        if (Vector3.Distance(transform.position,player.transform.position)<minDistance)
+        {
+            speed -= 0.001f;
+            Debug.Log("yaklaşıyor");
+        }
+     
         wayPointPos = new Vector3(wayPoint.transform.position.x, transform.position.y, wayPoint.transform.position.z);
         //Car following player
-        transform.position = Vector3.Lerp(transform.position, wayPointPos, speed * Time.fixedDeltaTime);
+        transform.position = Vector3.Slerp(transform.position, wayPointPos, speed * Time.deltaTime);
+        
+        if (!CarFollowController.cfc.followCars.Contains(this))
+        {
+            if (follow)
+            {
+                CarFollowController.cfc.AddFollowCarList(this);
+            }
+           
+        }
        
+
     }
 
     void CarRotate()
@@ -73,7 +84,7 @@ public class RescueCarController : MonoBehaviour
     {
         GameObject closestWPTemp = null;
         GameObject[] wayPointPosListTemp;
-        wayPointPosListTemp = GameObject.FindGameObjectsWithTag("WayPoint");
+        wayPointPosListTemp = GameObject.FindGameObjectsWithTag("RescueCarTarget");
         float distance = Mathf.Infinity;
         //wayPointPosListTemp.OrderBy(x => x.transform.position.z);
         foreach (var wayPointTemp in wayPointPosListTemp)
