@@ -4,21 +4,9 @@
     <list default="true" id="4123d899-9bac-4cdf-bc72-6cd90986cf76" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PlowerMil/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlowerMil/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PlowerMil/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlowerMil/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Custom_Car_Pack_Avenger/Prefabs/Avenger_DOOM .prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Custom_Car_Pack_Avenger/Prefabs/Avenger_DOOM .prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RescueCarController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RescueCarController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scripts/BallController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scripts/BallController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PileMaker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PileMaker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TruckMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TruckMover.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Character Controllers.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Character Controllers/Sources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Character Controllers/Sources/PrototypeCharacter.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Character Controllers/Sources/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +22,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/DestructibleProps/Models/MetalBarrel/MetalBarrel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PileMaker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FrontPile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TruckMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Models/MilModels/SnowWithMesh/0050-snow-texture-seamless-hr.jpg.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObstacleControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DestructibleProps/destruction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RescueCarController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CarFollowController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -50,11 +41,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/StopPileController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CarFollowController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Scripts/BallController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TruckMover.cs" />
         <option value="$PROJECT_DIR$/Assets/RescueCarController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PileMaker.cs" />
         <option value="$PROJECT_DIR$/Assets/DestructibleProps/destruction.cs" />
         <option value="$PROJECT_DIR$/Assets/DestructibleProps/Models/MetalBarrel/MetalBarrel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TruckMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObstacleControl.cs" />
       </list>
     </option>
   </component>
@@ -108,7 +102,8 @@
       <workItem from="1591263025785" duration="492000" />
       <workItem from="1591350857593" duration="7557000" />
       <workItem from="1591624705333" duration="1136000" />
-      <workItem from="1591775144202" duration="2032000" />
+      <workItem from="1591775144202" duration="2295000" />
+      <workItem from="1592061329980" duration="1563000" />
     </task>
     <servers />
   </component>

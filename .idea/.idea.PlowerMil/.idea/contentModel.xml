@@ -478,10 +478,12 @@
           <e p="GameManager.cs" t="Include" />
           <e p="MaskController.cs" t="Include" />
           <e p="MaskMaker.cs" t="Include" />
+          <e p="ObstacleControl.cs" t="Include" />
           <e p="PileMaker.cs" t="Include" />
           <e p="PlowerRotator.cs" t="Include" />
           <e p="StopPileController.cs" t="Include" />
           <e p="TruckMover.cs" t="Include" />
+          <e p="UIManager.cs" t="Include" />
         </e>
         <e p="SoftSnow" t="Include">
           <e p="SoftSnow - Readme.txt" t="Include" />
