@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class TruckMover : MonoBehaviour
 {
+    public static TruckMover player;
     public Camera cam;  //Drag the camera object here
     public float rotationSpeed = 8;  //This will determine max rotation speed, you can adjust in the inspector
     public float mainMoveSpeed = 10;
@@ -20,7 +21,7 @@ public class TruckMover : MonoBehaviour
     
     private void Start()
     {
-
+        player = this;
     }
     // Update is called once per frame
     void Update()
