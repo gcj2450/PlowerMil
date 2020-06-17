@@ -7,6 +7,7 @@ public class CarFollowController : MonoBehaviour
     public static CarFollowController cfc;
     public TruckMover car;
     public float firstSpeedCar;
+    public float minFollowDistance = 0;
     float valueSpeed = 0;
     public List<RescueCarController> followCars = new List<RescueCarController>();
     // Start is called before the first frame update
@@ -34,7 +35,7 @@ public class CarFollowController : MonoBehaviour
                 }
                 else
                 {
-                    followCars[i].speed = followCars[i - 1].speed / 2.5f;
+                    followCars[i].speed = followCars[i - 1].speed / minFollowDistance;
                 }
                 
             }
@@ -53,7 +54,7 @@ public class CarFollowController : MonoBehaviour
         {
             int value = followCars.Count;
             res.player = followCars[value - 1].gameObject.transform;
-            res.speed = followCars[value - 1].speed/ 2.5f;
+            res.speed = followCars[value - 1].speed/ minFollowDistance;
             followCars.Add(res);
             res.followID = value;
 

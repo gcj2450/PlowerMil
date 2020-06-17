@@ -7,6 +7,9 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Damaged_old_car" t="Include">
+          <e p="ReadMe.txt" t="Include" />
+        </e>
         <e p="DestructibleProps" t="Include">
           <e p="BulletsDamage.cs" t="Include" />
           <e p="DemoScene" t="Include">
@@ -34,6 +37,21 @@
             <e p="ReflectiveFresnel.shader" t="Include" />
             <e p="ReflectiveIllumination.shader" t="Include" />
             <e p="ReflectiveIlluminationFresnel.shader" t="Include" />
+          </e>
+        </e>
+        <e p="Low Poly Rocks Pack" t="Include">
+          <e p="Bonus Assets" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="LowPolyRocks_CameraControl.cs" t="Include" />
+              <e p="LowPolyRocks_CloudsControl.cs" t="Include" />
+              <e p="LowPolyRocks_FireLightControl.cs" t="Include" />
+              <e p="LowPolyRocks_SunControl.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Demo" t="Include">
+            <e p="Asset _Scenes" t="Include">
+              <e p="Info.txt" t="Include" />
+            </e>
           </e>
         </e>
         <e p="Mobile City Pack" t="Include">
@@ -487,6 +505,13 @@
         </e>
         <e p="SoftSnow" t="Include">
           <e p="SoftSnow - Readme.txt" t="Include" />
+        </e>
+        <e p="Toon_fire" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="demo_scene_control.cs" t="Include" />
+            <e p="fire_wiggle.cs" t="Include" />
+            <e p="flickering.cs" t="Include" />
+          </e>
         </e>
         <e p="WayPointMaker.cs" t="Include" />
       </e>

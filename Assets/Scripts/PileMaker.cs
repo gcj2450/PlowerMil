@@ -22,7 +22,7 @@ public class PileMaker : MonoBehaviour
     {
         for (int i = 0; i < winterAmount; i++)
         {
-            PileList.Add(Instantiate(pilePrefab[Random.Range(0,6)], transform.position, Quaternion.identity));
+            PileList.Add(Instantiate(pilePrefab[Random.Range(0,pilePrefab.Count)], transform.position, Quaternion.identity));
             PileList[i].SetActive(false);
             PileList[i].gameObject.name = "WinterMass" + i;
             PileList[i].gameObject.transform.parent = group.transform;

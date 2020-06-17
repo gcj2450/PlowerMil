@@ -55,7 +55,7 @@ public class RescueCarController : MonoBehaviour
     {
         if (Vector3.Distance(transform.position,player.transform.position)<minDistance)
         {
-            speed -= 0.001f;
+            speed -= 0.031f;
             Debug.Log("yaklaşıyor");
         }
      
