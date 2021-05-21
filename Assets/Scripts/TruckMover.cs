@@ -94,10 +94,13 @@ public class TruckMover : MonoBehaviour
         
         //GetComponent<Rigidbody>().isKinematic = true;
     }
-    
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Obstacle"))
+        {
             Destroy(other.gameObject);
+            CarFollowController.cfc.control = true;
+        }
     }
 }

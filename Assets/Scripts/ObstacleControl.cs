@@ -18,7 +18,7 @@ public class ObstacleControl : MonoBehaviour
     void Update()
     {
         point = (int) carGo.transform.position.z;
-        UIManager.ui.pointText.text = point.ToString();
+       // UIManager.ui.pointText.text = point.ToString();
     }
 
     private void OnTriggerEnter(Collider other)
