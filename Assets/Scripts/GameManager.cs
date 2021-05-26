@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
         }
 
 
-        if (player.transform.position.z > 500)
+        if (player.transform.position.z > 300)
         {
             GameOver();
         }
