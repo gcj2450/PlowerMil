@@ -99,8 +99,16 @@ public class TruckMover : MonoBehaviour
     {
         if (other.CompareTag("Obstacle"))
         {
+            if(!CarFollowController.cfc.followCars.Contains(other.transform.root.GetComponent<RescueCarController>()))
+            {
+                CarFollowController.cfc.AddFollowCarList(other.transform.root.GetComponent<RescueCarController>());
+            }
+
+            
             Destroy(other.gameObject);
-            CarFollowController.cfc.control = true;
+            
+
+
         }
     }
 }
