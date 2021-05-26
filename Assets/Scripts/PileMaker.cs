@@ -74,6 +74,10 @@ public class PileMaker : MonoBehaviour
         }
 
     }
+    private void OnTriggerExit(Collider other)
+    {
+        winterPathtrigger = false;
+    }
 
 
     void PlacePile()
