@@ -78,7 +78,8 @@ public class TruckMover : MonoBehaviour
         }
         else
         {
-            transform.position = Vector3.Slerp(transform.position, new Vector3(3.5f, 1.18f, 340), Time.deltaTime);
+            transform.position = Vector3.Slerp(transform.position, new Vector3(10, 1.18f, 345), Time.deltaTime*3);
+            
             CarFollowController.cfc.enabled = false;
            
             moveSpeed = 0;
