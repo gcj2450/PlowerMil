@@ -38,8 +38,9 @@ public class GameManager : MonoBehaviour
         }
 
 
-        if (player.transform.position.z > 350)
+        if (player.transform.position.z > 335)
         {
+
             GameOver();
         }
     }
@@ -47,7 +48,8 @@ public class GameManager : MonoBehaviour
     void GameOver()
     {
         /* This is the end of the level*/
-        Time.timeScale = 0;
+        // Time.timeScale = 0;
+        TruckMover.player.control = false;
         Debug.Log("***GameOver***");
     }
 

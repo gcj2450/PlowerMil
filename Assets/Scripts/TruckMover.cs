@@ -14,6 +14,7 @@ public class TruckMover : MonoBehaviour
     public bool stop = true;
     [SerializeField] float boundaryR = 4f;
     [SerializeField] float boundaryL = -4f;
+    public bool control = true;
     //float posX = 0;
     //float rotationY=0;
 
@@ -70,8 +71,21 @@ public class TruckMover : MonoBehaviour
         // {
         //     moveSpeed = 3.0f;
         // }
-        transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
-        transform.position = new Vector3(Mathf.Clamp(transform.position.x, boundaryL, boundaryR), transform.position.y, transform.position.z);
+        if (control)
+        {
+            transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
+            transform.position = new Vector3(Mathf.Clamp(transform.position.x, boundaryL, boundaryR), transform.position.y, transform.position.z);
+        }
+        else
+        {
+            transform.position = Vector3.Slerp(transform.position, new Vector3(3.5f, 1.18f, 340), Time.deltaTime);
+            CarFollowController.cfc.enabled = false;
+           
+            moveSpeed = 0;
+            mainMoveSpeed = 0;
+        }
+            
+       
     }
     private void OnCollisionEnter(Collision collision)
     {
@@ -111,4 +125,5 @@ public class TruckMover : MonoBehaviour
 
         }
     }
+    
 }
